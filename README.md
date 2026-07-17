@@ -267,7 +267,7 @@ This dashboard enables users to answer questions such as:
 
 **Ijas Ahamed**
 
-- LinkedIn: https://linkedin.com/in/your-profile
+- LinkedIn: https://www.linkedin.com/in/ijas-ahamed-a134aa123/
 - GitHub: https://github.com/your-username
 
 If you found this project useful, feel free to ⭐ the repository!
