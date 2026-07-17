@@ -1,0 +1,66 @@
+Measures included in the Model
+
+Total Sales = CALCULATE(SUM(Fact_Sales[SalesAmount]))
+
+Total Cost = CALCULATE(SUM(Fact_Sales[Cost]))
+
+Total Profit = [Total Sales]-[Total Cost]
+
+Total Orders = CALCULATE(DISTINCTCOUNT(Fact_Sales[OrderNumber]))
+
+Profit Margin = DIVIDE([Total Profit],[Total Sales])
+
+YoY SalesChange % = 
+                VAR CurrntSales = [Total Sales]
+                VAR LastyearSales = CALCULATE([Total Sales],
+                                    DATEADD('Date'[Date],-1,YEAR))
+                        RETURN IF(HASONEVALUE(Dim_Products[Category]),DIVIDE(CurrntSales-LastyearSales,LastyearSales),BLANK())
+
+YoY Profit Margin% = 
+        VAR ThisYear = [Profit Margin]
+        VAR LastYear = CALCULATE([Profit Margin],
+                       DATEADD('Date'[Date],-1,YEAR))
+            RETURN DIVIDE(ThisYear-LastYear,LastYear)
+Yoy Orders = 
+        VAR Curryear = [Total Orders]
+        VAR Prevyear = CALCULATE([Total Orders],
+                       DATEADD('Date'[Date],-1,YEAR))
+            RETURN DIVIDE(Curryear-Prevyear,Prevyear)
+
+Total Sales LY = CALCULATE([Total Sales],DATEADD('Date'[Date],-1,YEAR))
+
+Total Profit LY = CALCULATE([Total Profit],DATEADD('Date'[Date],-1,YEAR))
+
+Calculated Columns included in the Model:-
+
+Customer Segment = SWITCH(
+                        TRUE(),
+                        'Fact_Sales'[SalesAmount] > 10000, "VIP",
+                        'Fact_Sales'[SalesAmount] > 5000, "High Value",
+                        'Fact_Sales'[SalesAmount] > 1000, "Regular",
+                        'Fact_Sales'[SalesAmount] > 0, "Low Value")
+
+Age = DATEDIFF('Dim_Customers'[Birthday],TODAY(),YEAR)
+
+Age Category = SWITCH(
+                        TRUE(),
+                        'Dim_Customers'[Age] <=18, "Child",
+                        'Dim_Customers'[Age] <= 30, "18 - 30",
+                        'Dim_Customers'[Age] <= 45, "30 - 45",
+                        'Dim_Customers'[Age] <= 60, "45 - 60",
+                        'Dim_Customers'[Age] <= 75, "60 - 75",
+                        'Dim_Customers'[Age] <= 100, "Above 75")
+
+Date Table
+
+Date = ADDCOLUMNS(CALENDAR(MIN('Fact_Sales'[OrderDate]),MAX(Fact_Sales[OrderDate])),
+                "Year",YEAR([Date]),
+                "Quarter", QUARTER([Date]),
+                "Month Number", MONTH([Date]),
+                 "Month", FORMAT([Date],"mmm"),
+                 "Weekday Name", FORMAT([Date], "ddd"),
+                 "Weekday Number", WEEKDAY([Date],2))
+
+
+
+
