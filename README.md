@@ -71,10 +71,10 @@ Global-Electronics-Analytics/
 │   ├── 03_Load_Bronze.sql
 │   ├── 04_Quality_Checks.sql
 │   ├── 05_Create_Silver.sql
-│   ├── 05_Quality_Checks.sql
-│   ├── 06_Load_Silver.sql
-│   ├── 07_Create_Gold.sql
-│   └── 08_Load_Gold.sql
+│   ├── 06_Quality_Checks.sql
+│   ├── 07_Load_Silver.sql
+│   ├── 08_Create_Gold.sql
+│   └── 09_Load_Gold.sql
 │
 ├── Power BI/
 │   ├── GlobalElectronics.pbix
