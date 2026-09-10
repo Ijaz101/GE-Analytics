@@ -1,517 +1,361 @@
-# 📊 Global Electronics Sales Analytics Dashboard
+📊 Global Electronics Sales Analytics Dashboard
+📌 Project Overview
 
-An end-to-end **Business Intelligence and Data Analytics project** built to transform raw Global electronics sales data into actionable business insights.
+Global Electronics Sales Analytics Dashboard is an end-to-end Data Analytics and Business Intelligence project built to analyze the sales performance of a global electronics retailer.
 
-The project analyzes **sales, profitability, products, customers, and geographic performance** to help answer an important business question:
+The business is experiencing a significant year-over-year decline in sales, particularly in the most recent periods. This project focuses on understanding where the decline is happening, which products and markets are most affected, how customer behavior is changing, and where the business can focus its recovery efforts.
 
-> **What is happening in the business, what is driving the performance, and where should the business focus next?**
+The solution combines:
 
-The solution covers the complete analytics workflow — from raw CSV data and SQL Server data warehousing to an interactive Power BI dashboard and business recommendations.
+SQL Server for data warehousing and transformation
+T-SQL for data preparation and quality validation
+Medallion Architecture for structured data processing
+Power BI for interactive business reporting
+DAX for KPIs and time-intelligence analysis
+Star Schema for analytical modeling
 
----
+The objective is not simply to report sales numbers, but to turn raw transactional data into actionable business insights.
 
-# 💼 Business Context
+🎯 Business Problem
 
-Global Electronics is a global electronics retailer selling products across multiple categories, brands, customer segments, and countries.
+Global Electronics has experienced a substantial decline in sales performance compared with previous years.
 
-With a large volume of transactional sales data, simply reporting total sales is not enough. The business needs to understand:
+Management needs to understand:
 
-* Where revenue is coming from
-* Which categories and products drive growth
-* Which markets contribute the most sales
-* How profitability is changing
-* How customer purchasing behavior is evolving
-* What is driving changes in sales and profit
-* Where opportunities for improvement exist
+How severe is the sales decline?
+When did the decline become significant?
+Which product categories are contributing to the decline?
+Which products and brands are losing sales?
+Which countries and markets are most affected?
+How has customer purchasing behavior changed?
+Is the decline affecting profitability?
+Which areas should management prioritize for recovery?
 
-This project was developed to turn these questions into an **interactive analytical solution** that supports data-driven business decision-making.
+This dashboard provides a centralized analytical view to help answer these questions.
 
----
+📈 Key Business Insights
+🔻 Significant Year-over-Year Sales Decline
 
-# 🎯 Business Objectives
+Sales performance has weakened considerably compared with previous years.
 
-The dashboard was designed to answer the following key business questions:
+2020 sales were approximately 48% lower than 2019
+January–February 2021 sales were approximately 77% lower than January–February 2020
+The latest 12-month period, March 2020–February 2021, generated approximately $6.1M compared with $20.4M in the previous comparable 12-month period.
+This represents an approximate 70% year-over-year decline in the latest 12-month period.
 
-### Sales & Profitability
+The trend indicates that the decline is not limited to a single month or isolated period, making further analysis of products, customers, and markets important.
 
-* How are sales and profit performing compared with the previous year?
-* What is driving overall sales growth?
-* Is profit growing alongside revenue?
-* Is the business maintaining healthy margins?
+📦 Product & Category Performance
 
-### Product Performance
+Product-level analysis is used to identify:
 
-* Which categories generate the most revenue and profit?
-* Which categories are growing the fastest?
-* Which products contribute most to total sales?
-* Are there categories with high revenue but slower growth?
+Categories experiencing the largest sales declines
+Products with weakening demand
+High-value products requiring attention
+Categories that continue to contribute significant revenue
+Potential products and categories for recovery initiatives
+🌍 Geographic Performance
 
-### Customer Performance
+Country and regional analysis helps identify:
 
-* How is the customer base changing?
-* How frequently do customers purchase?
-* What is the average order value?
-* How strong is repeat purchasing behavior?
+Markets experiencing the largest decline
+High-revenue markets requiring protection
+Geographic areas with potential recovery opportunities
+Differences in sales performance across regions
+👥 Customer Performance
 
-### Geographic Performance
+Customer analytics provides visibility into:
 
-* Which countries generate the most revenue?
-* Which markets are growing?
-* Where are there opportunities for expansion?
+Customer segments
+Customer purchasing behavior
+Average order value
+Orders per customer
+Repeat customer activity
+Changes in customer contribution to sales
 
-### Business Actions
+This helps determine whether declining revenue is associated with fewer customers, lower purchasing frequency, lower order value, or a combination of factors.
 
-* What are the main drivers behind performance changes?
-* Where should the business focus its resources?
-* What actions could improve revenue, profitability, and customer value?
+💰 Profitability
 
----
+Sales performance is analyzed alongside cost and profit metrics to understand whether declining revenue is also creating pressure on profitability.
 
-# 📈 Dashboard Overview
+This allows the business to distinguish between:
 
-The Power BI report consists of **four interactive pages**, each designed to answer a different level of business question.
+Revenue decline vs. profitability decline
 
----
+and prioritize actions that can improve both sales and business value.
 
-## 1️⃣ Executive Overview
+🔎 Analytical Approach
+
+The project follows a structured analytical process:
+
+Raw Business Data
+       ↓
+SQL Data Warehouse
+       ↓
+Data Quality & Validation
+       ↓
+Star Schema
+       ↓
+Power BI Data Model
+       ↓
+DAX Measures & Time Intelligence
+       ↓
+Interactive Dashboard
+       ↓
+Business Insights
+       ↓
+Recovery Recommendations
+
+The analysis focuses heavily on like-for-like year-over-year comparisons so that business performance is evaluated over comparable periods.
+
+For example:
+
+Analysis Period	Comparison
+2020	2020 vs 2019
+Jan–Feb 2021	Jan–Feb 2021 vs Jan–Feb 2020
+Mar 2020–Feb 2021	Mar 2020–Feb 2021 vs Mar 2019–Feb 2020
+
+This provides a more meaningful view of business performance than comparing periods with different lengths.
+
+📊 Dashboard Pages
+1. Executive Overview
 
 Provides a high-level view of overall business performance.
 
-### Key KPIs
+Key KPIs
+Total Sales
+Total Profit
+Total Orders
+Profit Margin
+Year-over-Year Sales Change
+Year-over-Year Profit Change
+Previous-Year Performance
+Visual Analysis
+Monthly Sales Trend
+Monthly Profit Trend
+Sales by Category
+Top Countries by Sales
+Year-over-Year Performance
 
-* Total Sales
-* Total Profit
-* Total Orders
-* Profit Margin
-* Previous Year Performance
-* YoY Growth
+Purpose: Quickly understand the overall health of the business and identify whether performance is improving or declining.
 
-### Analysis
+2. Product Analytics
 
-* Monthly Sales Trend
-* Monthly Profit Trend
-* Top 5 Countries by Sales
-* Sales by Category
+Provides a detailed analysis of product and category performance.
 
-### Business Question
+Analysis Includes
+Sales by Category
+Profit by Category
+Sales by Brand
+Product Performance
+Product Pareto Analysis
+Category Year-over-Year Performance
+Profit Margin by Category
 
-> **How is the overall business performing?**
+Purpose: Identify products and categories that are contributing to the sales decline and determine where recovery efforts could have the greatest impact.
 
----
+3. Customer Analytics
 
-## 2️⃣ Product Analytics
+Analyzes customer behavior and customer contribution.
 
-Focuses on product and category performance.
+Analysis Includes
+Sales by Customer Segment
+Sales by Age Group
+Sales by Gender
+Total Customers
+Average Order Value
+Repeat Customer Rate
+Orders per Customer
+Customer Sales Contribution
+Geographic Customer Analysis
 
-### Analysis
+Purpose: Understand whether changes in customer behavior are contributing to declining sales.
 
-* Sales & Profit by Category
-* Product Pareto Analysis
-* Sales by Brand
-* Category YoY Performance
-* Profit Margin by Category
+4. Business Insights & Recommendations
 
-### Business Question
+The final analytical layer converts dashboard findings into potential business actions.
 
-> **Which products and categories are driving revenue and profitability?**
+Recommended Areas of Focus
 
----
+1. Identify declining categories
 
-## 3️⃣ Customer Analytics
+Prioritize categories and products with the largest negative year-over-year changes.
 
-Analyzes customer demographics and purchasing behavior.
+2. Protect high-value products
 
-### Analysis
+Focus on products that historically generate significant revenue or profit but are showing weakening performance.
 
-* Sales by Age
-* Sales by Gender
-* Customer Segment Performance
-* Orders by Delivery Status
-* Sales by Continent and Country
-* Total Customers
-* Average Order Value
-* Repeat Customer Rate
-* Orders per Customer
+3. Strengthen customer retention
 
-### Business Question
+Analyze repeat-purchase behavior and develop strategies to encourage existing customers to purchase more frequently.
 
-> **Who are our customers and how do they contribute to the business?**
+4. Increase Average Order Value
 
----
+Use product bundling, cross-selling, and targeted promotions to increase revenue per transaction.
 
-# 💡 Business Insights
+5. Focus on high-impact markets
 
-The analysis goes beyond reporting sales and profit figures by examining the key drivers behind business performance and identifying opportunities for improvement.
+Prioritize countries and regions where declining sales have the greatest effect on total business revenue.
 
-## 📈 1. Sales Growth Was Primarily Volume-Driven
+6. Protect profitability
 
-Total sales increased by approximately **12.1% YoY to $55.8M**, while total orders increased by **12.8%**.
+Recovery strategies should consider both revenue and margin rather than relying only on sales growth.
 
-At the same time, Average Order Value decreased slightly by **0.6% to $2.12K**.
+7. Monitor performance continuously
 
-### What does this mean?
+Use dynamic year-over-year KPIs to monitor whether recovery initiatives are improving performance over time.
 
-The increase in revenue was primarily driven by **higher order volume rather than increased spending per order**.
+🏗️ Data Warehouse Architecture
 
-### Business Opportunity
+The SQL Server data warehouse follows a Medallion Architecture:
 
-The business can potentially increase revenue further by improving AOV through:
-
-* Product bundling
-* Cross-selling
-* Upselling
-* Complementary product recommendations
-
----
-
-## 🖥️ 2. Computers Were the Strongest Category
-
-Computers generated approximately **$19.3M in sales** and **$11.28M in profit**, making it the strongest category in terms of both revenue and profitability.
-
-Sales grew by approximately **14.4% YoY**.
-
-Cell Phones and Cameras & Camcorders also showed strong growth of approximately **16.2%** and **14.0%**, respectively.
-
-### What does this mean?
-
-The strong performance of Computers, combined with growth in other major categories, was an important contributor to the overall increase in sales.
-
-### Business Recommendation
-
-Continue prioritizing high-performing categories through:
-
-* Inventory planning
-* Product promotions
-* Cross-selling
-* Product availability
-* Targeted marketing
-
----
-
-## 💰 3. Profit Increased While Margin Remained Stable
-
-Total profit increased from approximately **$29.13M to $32.66M**, representing growth of around **12.1%**.
-
-Overall profit margin remained stable at approximately **58.6%**.
-
-### What does this mean?
-
-The business was able to increase profit alongside revenue without a significant deterioration in overall margin.
-
-### Business Recommendation
-
-Continue monitoring category and product-level margins to ensure future growth remains profitable.
-
----
-
-## ⚠️ 4. Home Appliances Represents a Growth Opportunity
-
-Home Appliances generated approximately **$10.8M in sales**, making it one of the largest revenue-generating categories.
-
-However, its YoY sales growth was only **6.1%**, considerably lower than several other major categories.
-
-### What does this mean?
-
-Home Appliances has a strong revenue base but is growing more slowly than categories such as Cell Phones and Computers.
-
-### Business Recommendation
-
-Investigate Home Appliances at the:
-
-* Product level
-* Brand level
-* Country level
-
-to identify the products or markets responsible for slower growth.
-
----
-
-## 🌎 5. The United States Is the Largest Revenue Market
-
-The United States generated approximately **$29.9M in sales**, significantly ahead of the United Kingdom at **$7.1M** and Germany at **$5.9M**.
-
-### What does this mean?
-
-The US represents the company's most important revenue market and has a significant influence on overall business performance.
-
-### Business Recommendation
-
-Protect the existing US customer base while identifying opportunities to increase growth in other high-potential markets.
-
----
-
-## 👥 6. Customer Base Is Growing, but AOV Has Slightly Declined
-
-The customer base increased by approximately **5.0% to 12K customers**.
-
-However, AOV decreased by **0.6% to $2.12K**.
-
-The dashboard also shows:
-
-* **Repeat Customer Rate:** 61.2%
-* **Orders per Customer:** 2.21
-
-### What does this mean?
-
-The business is attracting more customers and generating meaningful repeat purchasing behavior, but there is an opportunity to increase the value generated from each order.
-
----
-
-# 🎯 Overall Business Recommendations
-
-Based on the analysis, the following actions should be considered:
-
-### 1. Increase Average Order Value
-
-Sales growth is currently being driven mainly by order volume, while AOV has slightly declined. Increasing the value of each transaction could create an additional growth opportunity.
-
-### 2. Protect High-Performing Categories
-
-Computers, Cell Phones, and Cameras & Camcorders are showing strong performance and should remain a key focus for inventory, promotions, and marketing.
-
-### 3. Investigate Slower-Growing Categories
-
-Home Appliances has a large revenue base but comparatively low growth. Product- and market-level analysis could reveal opportunities for improvement.
-
-### 4. Strengthen Repeat Purchasing
-
-A **61.2% repeat customer rate** indicates meaningful repeat purchasing behavior. Personalized campaigns and targeted product recommendations could help increase customer lifetime value.
-
-### 5. Diversify Geographic Growth
-
-The US contributes a substantial share of total sales. Maintaining this market while developing other high-potential markets could help reduce geographic concentration and support sustainable growth.
-
----
-
-# 📌 Key Takeaway
-
-The analysis shows that the business is experiencing **healthy overall growth**, with sales and profit both increasing by approximately **12.1%**.
-
-However, the analysis also highlights several opportunities:
-
-> **Increase AOV → Continue investing in strong categories → Improve slower-growing categories → Strengthen repeat purchasing → Expand growth across markets**
-
-The key lesson from this analysis is that **good business intelligence goes beyond describing what happened. It should help explain why performance changed and what the business could do next.**
-
-
----
-
-# 🎯 Business Recommendations
-
-Based on the analysis, the following actions could help improve future performance:
-
-### 1. Increase Average Order Value
-
-Use product bundles, cross-selling, and upselling strategies to increase revenue per transaction.
-
-### 2. Prioritize High-Performing Categories
-
-Continue focusing on strong-performing categories such as Computers, Cell Phones, and Cameras & Camcorders.
-
-### 3. Investigate Slower-Growing Categories
-
-Analyze Home Appliances at product, brand, and country level to understand the reasons behind its slower growth.
-
-### 4. Strengthen Repeat Purchasing
-
-Leverage the existing repeat customer base through personalized offers, product recommendations, and targeted campaigns.
-
-### 5. Monitor Sales Drivers
-
-Continue monitoring changes in order volume, category performance, geography, and customer value to understand the factors behind future sales and profit changes.
-
----
-
-# 📊 Key Performance Snapshot
-
-| Metric               | Performance |
-| -------------------- | ----------: |
-| Total Sales          |     ~$55.8M |
-| Sales YoY Growth     |      +12.1% |
-| Total Profit         |     ~$32.7M |
-| Profit YoY Growth    |      +12.1% |
-| Profit Margin        |       58.6% |
-| Total Orders         |        ~26K |
-| Orders YoY Growth    |      +12.8% |
-| Total Customers      |        ~12K |
-| Customer YoY Growth  |       +5.0% |
-| Average Order Value  |      $2.12K |
-| AOV YoY Growth       |       -0.6% |
-| Repeat Customer Rate |       61.2% |
-| Orders per Customer  |        2.21 |
-
----
-
-# 🏗️ Solution Architecture
-
-The project follows an end-to-end analytics architecture:
-
-```text
-CSV Files
-     │
-     ▼
+                Source CSV Files
+                       │
+                       ▼
+              ┌─────────────────┐
+              │  Bronze Layer   │
+              │ Raw Data        │
+              └────────┬────────┘
+                       │
+                       ▼
+              ┌─────────────────┐
+              │  Silver Layer  │
+              │ Cleaned Data   │
+              └────────┬────────┘
+                       │
+                       ▼
+              ┌─────────────────┐
+              │   Gold Layer   │
+              │ Business Model │
+              └────────┬────────┘
+                       │
+                       ▼
+                  Power BI
 Bronze Layer
-(Raw Data)
-     │
-     ▼
+
+Stores the raw source data with minimal transformation.
+
 Silver Layer
-(Cleaned & Transformed Data)
-     │
-     ▼
+
+Handles:
+
+Data cleansing
+Standardization
+Data type corrections
+Duplicate checks
+Data validation
+Transformation logic
 Gold Layer
-(Business-Ready Data Warehouse)
-     │
-     ▼
-Power BI Data Model
-     │
-     ▼
-Interactive Dashboard
-     │
-     ▼
-Business Insights & Recommendations
-```
 
----
+Provides business-ready analytical tables optimized for reporting and Power BI.
 
-# 🗄️ SQL Data Warehouse
+⭐ Data Model
 
-The data warehouse follows the **Medallion Architecture**, separating the data into three layers.
+The Power BI model follows a Star Schema.
 
-## Bronze Layer
+                    Dim_Customers
+                         │
+                         │
+Dim_Date ──────── Fact_Sales ──────── Dim_Products
+                         │
+                         │
+                    Dim_Stores
+                         │
+                         │
+                Dim_ExchangeRates
+Fact Table
 
-* Raw data ingestion from CSV files
-* Preserves source data
-* Minimal transformation
+Fact_Sales
 
-## Silver Layer
+Contains transactional information including:
 
-* Data cleaning
-* Data type conversion
-* Duplicate checks
-* Null handling
-* Data standardization
-* Data validation
+Order Number
+Order Date
+Delivery Date
+Customer Key
+Store Key
+Product Key
+Quantity
+Sales Amount
+Cost
+Profit
+Delivery Status
+Customer Segment
+Dimension Tables
+Dim_Customers
+Dim_Products
+Dim_Stores
+Dim_Date
+Dim_ExchangeRates
 
-## Gold Layer
+The star schema separates business events from descriptive attributes and provides an efficient structure for analytical reporting.
 
-* Analytics-ready data
-* Fact and dimension tables
-* Business-ready structure
-* Optimized for Power BI reporting
+🧮 DAX & Time Intelligence
 
----
+A major component of the project is the use of dynamic DAX measures for year-over-year analysis.
 
-# 📐 Data Model
+Core Measures
+Total Sales = 
+SUM(Fact_Sales[SalesAmount])
 
-The Power BI model follows a **Star Schema**.
+Additional measures include:
 
-### Fact Table
+Total Cost
+Total Profit
+Profit Margin
+Total Orders
+Sales CY
+Sales LY
+YoY Sales Change %
+YoY Profit Change %
+YoY Orders Change %
+Average Order Value
+Repeat Customer Rate
+Orders per Customer
+Dynamic Period Comparison
 
-**Fact_Sales**
+The dashboard supports different comparison scenarios, including:
 
-Contains transactional information such as:
+Full-year comparisons
+Partial-year comparisons
+Month-level comparisons
+Latest available rolling periods
+Same-period-previous-year analysis
 
-* Order Number
-* Order Date
-* Delivery Date
-* Customer Key
-* Store Key
-* Product Key
-* Quantity
-* Sales Amount
-* Cost
-* Profit
-* Delivery Status
-* Customer Segment
+This allows the dashboard to remain useful as different years, months, and reporting periods are selected.
 
-### Dimension Tables
+🧹 Data Quality
 
-* Dim_Customers
-* Dim_Products
-* Dim_Stores
-* Dim_Date
-* Dim_ExchangeRates
+Data quality checks were performed throughout the warehouse pipeline.
 
-This structure enables flexible analysis across **time, products, customers, stores, and geography**.
+Validation Includes
+Duplicate records
+Null values
+Data type validation
+Referential integrity
+Fact and dimension consistency
+Record-count validation
+Transformation validation
+Business-rule checks
 
----
+The goal is to ensure that the numbers presented in Power BI can be traced back to validated warehouse data.
 
-# 🧮 DAX & Analytical Calculations
+🐞 Problem Solving & Debugging
 
-Key DAX measures include:
+One of the important lessons from this project was that unexpected Power BI results are not always caused by DAX.
 
-* Total Sales
-* Total Cost
-* Total Profit
-* Profit Margin
-* Total Orders
-* Total Sales LY
-* Total Profit LY
-* YoY Sales Growth %
-* YoY Profit Growth %
-* YoY Orders Growth %
-* Average Order Value
-* Repeat Customer Rate
-* Orders per Customer
-* Sales Change
-* Profit Change
+During development, a KPI was producing unexpected results because a hidden Year filter/slicer was affecting the report page.
 
-Time-intelligence calculations were used to compare current performance against the previous-year period.
+The issue was resolved by inspecting the report's filter context rather than immediately rewriting the DAX.
 
----
+Key Lesson
 
-# 🔍 Data Quality & Validation
+When a Power BI result looks wrong, validate the filter context, model relationships, and visual configuration before assuming the DAX is incorrect.
 
-Data quality checks were performed throughout the ETL process to ensure the analytical model was reliable.
+This project therefore demonstrates not only DAX development, but also practical Power BI debugging and analytical validation.
 
-Validation included:
-
-* Duplicate detection
-* Null value checks
-* Data type validation
-* Referential integrity checks
-* Record count validation
-* Transformation validation
-* Fact and dimension consistency
-
----
-
-# 🐛 Development & Debugging Lesson
-
-One of the challenges encountered during Power BI development involved a **Year slicer behaving differently across report pages**.
-
-The slicer correctly displayed multiple years on one page but showed only **2017** on other pages.
-
-The investigation included checking:
-
-* Date table
-* Date relationships
-* DAX measures
-* Page-level filters
-* Report-level filters
-* Visual-level filters
-* Slicer synchronization
-* Visual interactions
-* Selection Pane
-* Test pages and slicers
-
-The root cause was eventually identified as a **hidden Year slicer** on the affected page with 2017 selected.
-
-Although the slicer was not visible, it was still filtering the page.
-
-### Key lesson
-
-> **Not every Power BI problem is a DAX problem.**
-
-Systematic debugging requires checking both visible and hidden report elements, including:
-
-**Filters → Interactions → Slicers → Selection Pane → Bookmarks**
-
----
-
-# 📂 Repository Structure
-
-```text
+📁 Repository Structure
 Global-Electronics-Analytics/
 │
 ├── Datasets/
@@ -545,67 +389,117 @@ Global-Electronics-Analytics/
 │   └── Business_Insights.png
 │
 └── README.md
-```
+🖼️ Dashboard Preview
+Executive Overview
 
----
 
-# 📸 Dashboard Preview
 
-## Executive Overview
 
-![Executive Overview](Dashboard_Screenshots/Executive_Summary.png)
+Product Analytics
 
-## Product Analytics
 
-![Product Analytics](Dashboard_Screenshots/Product_Analytics.png)
 
-## Customer Analytics
 
-![Customer Analytics](Dashboard_Screenshots/Customer_Analytics.png)
+Customer Analytics
 
-## Business Insights
 
-![Business Insights](Dashboard_Screenshots/Business_Insights.png)
 
----
 
-# 🛠️ Technical Skills Demonstrated
+Business Insights
 
-This project demonstrates practical experience across the full analytics workflow:
 
-* **SQL Server** — Data warehouse development
-* **T-SQL** — Data transformation and validation
-* **Medallion Architecture** — Bronze, Silver, Gold data layers
-* **ETL** — Data ingestion, cleaning, and transformation
-* **Data Quality** — Validation and consistency checks
-* **Star Schema** — Analytical data modeling
-* **Power BI** — Interactive dashboard development
-* **DAX** — Business measures and calculations
-* **Time Intelligence** — YoY and previous-year analysis
-* **Data Visualization** — KPI and analytical dashboard design
-* **Business Intelligence** — Translating data into actionable insights
-* **Git & GitHub** — Project version control
 
----
 
-# 🚀 Project Outcome
+🛠️ Technical Skills Demonstrated
+Data Engineering
+SQL Server
+T-SQL
+Data Warehouse Development
+Medallion Architecture
+ETL / ELT
+Data Transformation
+Data Quality Validation
+Data Modeling
+Star Schema
+Fact & Dimension Modeling
+Relationships
+Date Dimension
+Analytical Data Modeling
+Power BI
+Power BI Desktop
+Interactive Dashboards
+KPI Design
+Drill-down Analysis
+Slicers & Filters
+Data Visualization
+Report Design
+DAX
+Measures
+CALCULATE
+FILTER Context
+DATEADD
+DATESBETWEEN
+Time Intelligence
+Year-over-Year Analysis
+Dynamic Period Comparison
+KPI Logic
+Analytics
+Sales Analysis
+Profitability Analysis
+Customer Analytics
+Product Analytics
+Geographic Analysis
+Trend Analysis
+Business Performance Analysis
+Root-Cause Analysis
+Business Recommendations
+🎯 Project Outcomes
 
-This project demonstrates how raw transactional data can be transformed into a complete **business intelligence solution**.
+This project demonstrates an end-to-end analytical workflow:
 
-Rather than stopping at descriptive reporting, the project connects:
+Raw Data → Data Warehouse → Data Quality → Data Model → DAX → Dashboard → Insights → Business Recommendations
 
-**Data → Analysis → Drivers → Insights → Recommendations**
+The final solution provides management with a structured way to:
 
-The final solution provides stakeholders with a structured view of business performance and helps identify areas for growth, profitability improvement, and customer value creation.
+Monitor declining sales performance
+Compare performance against previous periods
+Identify high-impact products and categories
+Analyze customer behavior
+Evaluate geographic performance
+Monitor profitability
+Prioritize recovery opportunities
+Track performance over time
 
----
+The project demonstrates how data analytics can move beyond reporting historical numbers and support practical business decision-making.
 
-# 📬 Contact
+📚 Key Learning
 
-**Ijas Ahamed**
+One of the most important lessons from this project was the importance of analytical validation.
 
-* LinkedIn: https://www.linkedin.com/in/ijas-ahamed-a134aa123/
-* GitHub: https://github.com/your-username
+A dashboard can contain technically correct calculations but still produce misleading business conclusions if the comparison periods are not equivalent.
 
-If you found this project useful, feel free to ⭐ the repository!
+Therefore, meaningful business analysis requires:
 
+Correct Data
+     +
+Correct Model
+     +
+Correct Filter Context
+     +
+Correct Time Comparison
+     +
+Business Context
+     =
+Reliable Insight
+
+This principle was central to the development of the Global Electronics Analytics Dashboard.
+
+👤 Author
+
+Ijas Ahamed
+
+LinkedIn: https://www.linkedin.com/in/ijas-ahamed-a134aa123/
+GitHub: https://github.com/your-username
+⭐ If you find this project useful
+
+Feel free to explore the SQL scripts, Power BI model, DAX measures, and dashboard screenshots to understand the complete analytics workflow.
