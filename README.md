@@ -43,6 +43,7 @@ Which areas should management prioritize for recovery?
 This dashboard provides a centralized analytical view to help answer these questions.
 
 📈 Key Business Insights
+
 🔻 Significant Year-over-Year Sales Decline
 
 Sales performance has weakened considerably compared with previous years.
