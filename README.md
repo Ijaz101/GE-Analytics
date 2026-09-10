@@ -1,9 +1,16 @@
 📊 Global Electronics Sales Analytics Dashboard
 📌 Project Overview
 
-Global Electronics Sales Analytics Dashboard is an end-to-end Data Analytics and Business Intelligence project built to analyze the sales performance of a global electronics retailer.
+Global Electronics Sales Analytics Dashboard is an end-to-end Data Analytics and Business Intelligence project built to analyze the sales performance of a Global electronics retailer.
 
 The business is experiencing a significant year-over-year decline in sales, particularly in the most recent periods. This project focuses on understanding where the decline is happening, which products and markets are most affected, how customer behavior is changing, and where the business can focus its recovery efforts.
+
+🏢 Company Overview
+Global Electronics is a multinational consumer electronics retailer offering a broad portfolio of technology, entertainment, and home appliance products across multiple international markets.
+
+The company serves customers across North America, Europe, and Australia, with the United States representing its largest market by sales. Its product portfolio covers a wide range of consumer electronics, from computers and mobile phones to home appliances, cameras, televisions, audio equipment, and entertainment products.
+
+The breadth of the product portfolio allows the business to serve customers across multiple technology and lifestyle categories. However, it also makes it important for management to understand which categories, products, brands, and markets are driving business performance and where demand is weakening.
 
 The solution combines:
 
