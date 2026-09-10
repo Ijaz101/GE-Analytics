@@ -32,12 +32,19 @@ Global Electronics has experienced a substantial decline in sales performance co
 Management needs to understand:
 
 How severe is the sales decline?
+
 When did the decline become significant?
+
 Which product categories are contributing to the decline?
+
 Which products and brands are losing sales?
+
 Which countries and markets are most affected?
+
 How has customer purchasing behavior changed?
+
 Is the decline affecting profitability?
+
 Which areas should management prioritize for recovery?
 
 This dashboard provides a centralized analytical view to help answer these questions.
@@ -49,7 +56,9 @@ This dashboard provides a centralized analytical view to help answer these quest
 Sales performance has weakened considerably compared with previous years.
 
 2020 sales were approximately 48% lower than 2019
+
 January–February 2021 sales were approximately 77% lower than January–February 2020
+
 The latest 12-month period, March 2020–February 2021, generated approximately $6.1M compared with $20.4M in the previous comparable 12-month period.
 This represents an approximate 70% year-over-year decline in the latest 12-month period.
 
@@ -60,27 +69,41 @@ The trend indicates that the decline is not limited to a single month or isolate
 Product-level analysis is used to identify:
 
 Categories experiencing the largest sales declines
+
 Products with weakening demand
+
 High-value products requiring attention
+
 Categories that continue to contribute significant revenue
+
 Potential products and categories for recovery initiatives
+
 🌍 Geographic Performance
 
 Country and regional analysis helps identify:
 
 Markets experiencing the largest decline
+
 High-revenue markets requiring protection
+
 Geographic areas with potential recovery opportunities
+
 Differences in sales performance across regions
+
 👥 Customer Performance
 
 Customer analytics provides visibility into:
 
 Customer segments
+
 Customer purchasing behavior
+
 Average order value
+
 Orders per customer
+
 Repeat customer activity
+
 Changes in customer contribution to sales
 
 This helps determine whether declining revenue is associated with fewer customers, lower purchasing frequency, lower order value, or a combination of factors.
