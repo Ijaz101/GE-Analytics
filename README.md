@@ -426,15 +426,15 @@ Global-Electronics-Analytics/
 
 ### Executive Overview
 
-![Executive Summary](Dashboard_Screenshots/Executive_Summary.png)
+![Executive Summary](Dashboard_Screenshots/Executive_Overview.png)
 
 ### Product Analytics
 
-![Product Analytics](Dashboard_Screenshots/Product_Analytics.png)
+![Product Analytics](Dashboard_Screenshots/Product_Overview.png)
 
 ### Customer Analytics
 
-![Customer Analytics](Dashboard_Screenshots/Customer_Analytics.png)
+![Customer Analytics](Dashboard_Screenshots/Overview.png)
 
 ### Business Insights
 
