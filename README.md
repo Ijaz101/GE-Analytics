@@ -208,41 +208,6 @@ Analyzes customer behavior and customer contribution.
 
 ---
 
-## 4. Business Insights & Recommendations
-
-The final analytical layer converts dashboard findings into potential business actions.
-
-### Recommended Areas of Focus
-
-**1. Identify declining categories**
-
-Prioritize categories and products with the largest negative year-over-year changes.
-
-**2. Protect high-value products**
-
-Focus on products that historically generate significant revenue or profit but are showing weakening performance.
-
-**3. Strengthen customer retention**
-
-Analyze repeat-purchase behavior and develop strategies to encourage existing customers to purchase more frequently.
-
-**4. Increase Average Order Value**
-
-Use product bundling, cross-selling, and targeted promotions to increase revenue per transaction.
-
-**5. Focus on high-impact markets**
-
-Prioritize countries and regions where declining sales have the greatest effect on total business revenue.
-
-**6. Protect profitability**
-
-Recovery strategies should consider both revenue and margin rather than relying only on sales growth.
-
-**7. Monitor performance continuously**
-
-Use dynamic year-over-year KPIs to monitor whether recovery initiatives are improving performance over time.
-
----
 
 # 🏗️ Data Warehouse Architecture
 
