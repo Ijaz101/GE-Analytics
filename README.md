@@ -434,11 +434,7 @@ Global-Electronics-Analytics/
 
 ### Customer Analytics
 
-![Customer Analytics](Dashboard_Screenshots/Overview.png)
-
-### Business Insights
-
-![Business Insights](Dashboard_Screenshots/Business_Insights.png)
+![Customer Analytics](Dashboard_Screenshots/Customer_Overview.png)
 
 ---
 
