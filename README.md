@@ -13,21 +13,6 @@ North America is the company's largest geographic market, generating approximate
 
 The business is experiencing a **significant year-over-year decline in sales**, particularly in the most recent periods. This project focuses on understanding **where the decline is happening, which products and markets are most affected, how customer behavior is changing, and where the business can focus its recovery efforts**.
 
-
-
-The solution combines:
-
-* **SQL Server** for data warehousing and transformation
-* **T-SQL** for data preparation and quality validation
-* **Medallion Architecture** for structured data processing
-* **Power BI** for interactive business reporting
-* **DAX** for KPIs and time-intelligence analysis
-* **Star Schema** for analytical modeling
-
-The objective is not simply to report sales numbers, but to turn raw transactional data into **actionable business insights**.
-
----
-
 ## 🎯 Business Problem
 
 Global Electronics has experienced a substantial decline in sales performance compared with previous years.
