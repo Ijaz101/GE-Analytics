@@ -39,7 +39,9 @@ This dashboard provides a centralized analytical view to help answer these quest
 Sales performance has weakened considerably compared with previous years.
 
 * **2020 sales were approximately 48% lower than 2019**
-* ![Yearly Trend](Dashboard_Screenshots/Yearly_Sales_Trend.png)
+
+ ![Yearly Trend](Dashboard_Screenshots/Yearly_Sales_Trend.png)
+
 * **January–February 2021 sales were approximately 77% lower than January–February 2020**
 * The latest 12-month period, **March 2020–February 2021**, generated approximately **$6.1M** compared with **$20.4M** in the previous comparable 12-month period.
 * This represents an approximate **70% year-over-year decline** in the latest 12-month period.
