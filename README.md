@@ -59,22 +59,19 @@ The trend indicates that the decline is not limited to a single month or isolate
 
 ### 📦 Product & Category Performance
 
-Product-level analysis is used to identify:
-
-* Categories experiencing the largest sales declines
-* Products with weakening demand
-* High-value products requiring attention
-* Categories that continue to contribute significant revenue
-* Potential products and categories for recovery initiatives
+  The overall sales decline becomes more meaningful when performance is examined at the category level.
 
 **Computers are the company's strongest category, contributing roughly one-third of total revenue. Together, Computers and Home Appliances account for more than half of total revenue.**
+   
+   Because these categories represent a large share of the company's revenue, their year-over-year performance has a significant impact on the overall business
 
 ![Sales by Category](Dashboard_Screenshots/Sales_by_Category.png)
 
-These categories are therefore particularly important when evaluating the company's overall sales performance. 
-The most important decline by revenue came from Computers because of its much larger revenue base. Home Appliances, Cameras & Camcorders, and Cell Phones also lost substantial sales compared with the previous year.
+**Category-Level Sales Decline**
 
-Audio had the largest percentage decline, at approximately -72.5%, but its smaller revenue base means its absolute sales loss was lower than that of Computers.
+Comparing current-year sales with the equivalent previous-year period shows that the decline is broad-based across major product categories.
+
+The largest decline in absolute sales value came from Computers. Sales decreased from approximately $7.10M to $2.84M, resulting in a loss of approximately $4.26M in revenue.
 
 * Computers: largest business impact because of its high revenue base and approximately $4.26M decline.
 * Home Appliances: significant decline of approximately $1.87M.
