@@ -71,9 +71,16 @@ Product-level analysis is used to identify:
 
 ![Sales by Category](Dashboard_Screenshots/Sales_by_Category.png)
 
-These categories are therefore particularly important when evaluating the company's overall sales performance. The most important decline by sales value came from Computers because of its much larger revenue base. Home Appliances, Cameras & Camcorders, and Cell Phones also lost substantial sales compared with the previous year.
+These categories are therefore particularly important when evaluating the company's overall sales performance. 
+The most important decline by revenue came from Computers because of its much larger revenue base. Home Appliances, Cameras & Camcorders, and Cell Phones also lost substantial sales compared with the previous year.
 
 Audio had the largest percentage decline, at approximately -72.5%, but its smaller revenue base means its absolute sales loss was lower than that of Computers.
+
+* Computers: largest business impact because of its high revenue base and approximately $4.26M decline.
+* Home Appliances: significant decline of approximately $1.87M.
+* Cameras & Camcorders: approximately $1.50M decline.
+* Cell Phones: approximately $1.44M decline.
+* Audio: highest percentage decline, but a smaller absolute revenue impact.
 
 ### 🌍 Geographic Performance
 
