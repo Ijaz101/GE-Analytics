@@ -46,7 +46,7 @@ Key Note: Dataset is available for period Jan 2016- Feb 2021
  ![Yearly Trend](Dashboard_Screenshots/Yearly_Sales_Trend.png)
 
 * The latest 12-month period, **March 2020–February 2021**, generated approximately **$6.9M** compared with **$18.5M** in the previous comparable 12-month period.
-* This represents an approximate **70% year-over-year decline** in the latest 12-month period.
+* This represents an approximate **62% year-over-year decline** in the latest 12-month period.
 
 ![Sales Trend for 2020](Dashboard_Screenshots/Sales_Trend_2020.png)
 
