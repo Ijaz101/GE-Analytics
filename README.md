@@ -40,7 +40,7 @@ Sales performance has weakened considerably compared with previous years.
 
 Key Note: Dataset is available for period Jan 2016- Feb 2021
 
-* **2020 sales were approximately 48% lower than 2019**
+* **2020 sales were approximately 49% lower than 2019**
 
 
  ![Yearly Trend](Dashboard_Screenshots/Yearly_Sales_Trend.png)
