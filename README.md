@@ -66,6 +66,11 @@ Product-level analysis is used to identify:
 * High-value products requiring attention
 * Categories that continue to contribute significant revenue
 * Potential products and categories for recovery initiatives
+**Computers are the company's strongest category, contributing roughly one-third of total revenue. Together, Computers and Home Appliances account for more than half of total revenue.**
+
+![Sales by Category](Dashboard_Screenshots/Sales_by_Category.png)
+
+These categories are therefore particularly important when evaluating the company's overall sales performance.
 
 ### 🌍 Geographic Performance
 
