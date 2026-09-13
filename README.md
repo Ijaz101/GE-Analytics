@@ -82,6 +82,8 @@ Audio had the largest percentage decline, at approximately -72.5%, but its small
 * Cell Phones: approximately $1.44M decline.
 * Audio: highest percentage decline, but a smaller absolute revenue impact.
 
+![Category Comparison ](Dashboard_Screenshots/Category_Comparison.png)
+
 ### 🌍 Geographic Performance
 
 Country and regional analysis helps identify:
