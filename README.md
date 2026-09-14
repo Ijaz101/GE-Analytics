@@ -84,27 +84,22 @@ The largest decline in absolute sales value came from Computers. Sales decreased
 
 ### 🔎 Product Performance
 
-The category-level analysis identifies where the largest revenue declines are occurring. To understand what is driving these changes, product-level performance was analyzed across the five highest-revenue categories: **Computers, Home Appliances, Cameras & Camcorders, Cell Phones, and TV & Video**.
+The category-level analysis identifies where the largest revenue declines are occurring. To understand **what is driving those category-level declines**, product performance was analyzed across the five highest-revenue categories: **Computers, Home Appliances, Cameras & Camcorders, Cell Phones, and TV & Video.**
 
-**Top five products within each major category**. This provides a more balanced view of product performance across the company's portfolio.
+The analysis focuses on the **top five products within each major category.** 
+The comparison shows that the decline in overall sales is reflected across many of the highest-performing products within the major categories.
 
-The comparison shows that most leading products experienced significant year-over-year declines.
+**Computers:** The category experienced the largest absolute sales decline, and its leading products contributed significantly to this reduction. WWI Desktop PC2.33 X2330 Black decreased from approximately $172K to $64K, a decline of $108K (-62.8%). Adventure Works Desktop PC2.33 XD233 Black declined from $165K to $38K, a reduction of $127K (-77.0%). This indicates that the decline in Computers was not driven by a single product but was spread across several major desktop products.
+**Home Appliances:** The leading products also experienced substantial declines. Contoso Water Heater 7.2GPM X1800 White fell from approximately $75K to $3K, a reduction of $72K (-96.0%). Contoso Water Heater 7.2GPM X1800 Grey declined from $55K to $21K, down $34K (-61.8%). These declines help explain the significant year-over-year reduction observed in the Home Appliances category.
+**Cameras & Camcorders:** The category shows a more mixed pattern. Several leading products declined sharply, including Fabrikam Trendsetter 1/3" 8.5mm X200 Black, which fell from approximately $54K to $3K, a decline of $51K (-94.4%). However, some products performed better than the previous year. Fabrikam Independent Filmmaker 1/3" 8.5mm X200 Grey increased from $17K to $34K, an increase of $17K (+100%). This suggests that the category decline was concentrated among specific products rather than being uniform across the entire category.
+**Cell Phones:** The leading phone products show a broad downward trend. The Phone Company Touch Screen Phone 1600 TFT-2.2" L200 Black declined from approximately $33K to $3K, a reduction of $30K (-90.9%). Other leading Touch Screen Phone models also experienced significant declines, indicating that weaker product-level performance was an important contributor to the category's overall decline.
+**TV & Video:** The category shows some of the most significant product-level reductions. Adventure Works 52" LCD HDTV X590 White decreased from approximately $174K to $6K, a reduction of $168K (-96.6%). The Black version declined from $136K to $35K, down $101K (-74.3%). These large reductions among high-revenue products help explain the substantial decline observed within the category.
 
-* **Computers:** The leading desktop PC products all declined substantially. For example, WWI Desktop PC2.33 X2330 Black decreased from approximately **$172K to $64K**, while Adventure Works Desktop PC2.33 XD233 Black declined from **$165K to $38K**.
-  
+Overall, the product-level analysis shows that the sales decline was not caused by a single product. Instead, multiple high-performing products across the major categories experienced substantial year-over-year reductions.
 
-* **Home Appliances:** Leading water-heater products also experienced sharp declines. Contoso Water Heater 7.2GPM X1800 White fell from approximately **$75K to $3K**, representing a decline of roughly **96%**.
+The analysis also reveals important exceptions, particularly within Cameras & Camcorders, where several products increased their sales despite the broader category decline. This highlights an opportunity to investigate what differentiates these better-performing products from those experiencing significant declines.
 
-* **Cameras & Camcorders:** While most leading products declined, some products showed positive year-over-year performance. Fabrikam Independent Filmmaker 1/3" 8.5mm X200 Grey increased from approximately **$17K to $34K**, while Fabrikam Trendsetter 1/3" 8.5mm X200 Blue increased from **$14K to $17K**.
-
-* **Cell Phones:** The leading phone products showed broad declines. The Phone Company Touch Screen Phone 1600 TFT-2.2" L200 Black decreased from approximately **$33K to $3K**, highlighting the significant reduction in product-level sales.
-
-* **TV & Video:** Leading products experienced particularly large declines. Adventure Works 52" LCD HDTV X590 White fell from approximately **$174K to $6K**, while the Black version declined from **$136K to $35K**.
-
-Overall, the product-level analysis confirms that the decline is **broad-based across the company's major categories**, while also identifying individual products that continued to grow despite the overall downturn.
-
-This analysis helps move from **"which categories are declining?"** to **"which products are driving those changes?"**, providing a foundation for more targeted product and portfolio decisions.
-
+This drill-down connects the analysis from category performance to individual product performance, helping identify the products that contributed most to the company's overall sales decline and providing a starting point for deeper investigation into potential drivers such as product demand, pricing, availability, or product mix.
 
 ### 🌍 Geographic Performance
 
