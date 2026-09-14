@@ -81,6 +81,11 @@ The largest decline in absolute sales value came from Computers. Sales decreased
 
 ![Category Comparison ](Dashboard_Screenshots/Category_Comparison.png)
 
+
+### 🔎 Product Performance
+
+The category-level analysis shows where the largest revenue declines are occurring. The next step is to identify which individual products are driving those category-level changes.
+
 ### 🌍 Geographic Performance
 
 Country and regional analysis helps identify:
