@@ -117,7 +117,7 @@ The comparison shows that the decline in overall sales is reflected across many 
 **TV & Video:** The category shows some of the most significant product-level reductions. Adventure Works 52" LCD HDTV X590 White decreased from approximately $174K to $6K, a reduction of $168K (-96.6%). The Black version declined from $136K to $35K, down $101K (-74.3%). These large reductions among high-revenue products help explain the substantial decline observed within the category.
 
 
-![TV & Video Yearly Performance ](Dashboard_Screenshots/TV_and_Video_Yearly_Comparison.png)
+![Tv & Video Yearly Performance ](Dashboard_Screenshots/TV_and_Video_Yearly_Comparison.png)
 
 
 
