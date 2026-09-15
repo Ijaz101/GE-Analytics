@@ -92,16 +92,34 @@ The comparison shows that the decline in overall sales is reflected across many 
 **Computers:** The category experienced the largest absolute sales decline, and its leading products contributed significantly to this reduction. WWI Desktop PC2.33 X2330 Black decreased from approximately $172K to $64K, a decline of $108K (-62.8%). Adventure Works Desktop PC2.33 XD233 Black declined from $165K to $38K, a reduction of $127K (-77.0%). This indicates that the decline in Computers was not driven by a single product but was spread across several major desktop products.
 
 
+![Computers Yearly Performance ](Dashboard_Screenshots/Computers_Yearly_Comparison.png)
+
+
 **Home Appliances:** The leading products also experienced substantial declines. Contoso Water Heater 7.2GPM X1800 White fell from approximately $75K to $3K, a reduction of $72K (-96.0%). Contoso Water Heater 7.2GPM X1800 Grey declined from $55K to $21K, down $34K (-61.8%). These declines help explain the significant year-over-year reduction observed in the Home Appliances category.
 
 
+![Home Appliance Yearly Performance ](Dashboard_Screenshots/Home_Appliance_Yearly_Comparison.png)
+
 **Cameras & Camcorders:** The category shows a more mixed pattern. Several leading products declined sharply, including Fabrikam Trendsetter 1/3" 8.5mm X200 Black, which fell from approximately $54K to $3K, a decline of $51K (-94.4%). However, some products performed better than the previous year. Fabrikam Independent Filmmaker 1/3" 8.5mm X200 Grey increased from $17K to $34K, an increase of $17K (+100%). This suggests that the category decline was concentrated among specific products rather than being uniform across the entire category.
+
+
+![Cameras & Camrecorders Yearly Performance ](Dashboard_Screenshots/Cameras_and_Camrecorders_Yearly_Comparison.png)
 
 
 **Cell Phones:** The leading phone products show a broad downward trend. The Phone Company Touch Screen Phone 1600 TFT-2.2" L200 Black declined from approximately $33K to $3K, a reduction of $30K (-90.9%). Other leading Touch Screen Phone models also experienced significant declines, indicating that weaker product-level performance was an important contributor to the category's overall decline.
 
 
+
+![Cell Phones Yearly Performance ](Dashboard_Screenshots/Cell_Phones_Yearly_Comparison.png)
+
+
+
 **TV & Video:** The category shows some of the most significant product-level reductions. Adventure Works 52" LCD HDTV X590 White decreased from approximately $174K to $6K, a reduction of $168K (-96.6%). The Black version declined from $136K to $35K, down $101K (-74.3%). These large reductions among high-revenue products help explain the substantial decline observed within the category.
+
+
+![TV & Video Yearly Performance ](Dashboard_Screenshots/TV_and_Video_Yearly_Comparison.png)
+
+
 
 Overall, the product-level analysis shows that the sales decline was not caused by a single product. Instead, multiple high-performing products across the major categories experienced substantial year-over-year reductions.
 
