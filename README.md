@@ -92,7 +92,7 @@ The comparison shows that the decline in overall sales is reflected across many 
 **Computers:** The category experienced the largest absolute sales decline, and its leading products contributed significantly to this reduction. WWI Desktop PC2.33 X2330 Black decreased from approximately $172K to $64K, a decline of $108K (-62.8%). Adventure Works Desktop PC2.33 XD233 Black declined from $165K to $38K, a reduction of $127K (-77.0%). This indicates that the decline in Computers was not driven by a single product but was spread across several major desktop products.
 
 
-![Computers Yearly Performance ](Dashboard_Screenshots/Computers_Yearly_Comparison.png)
+![Computers Yearly Performance ](Dashboard_Screenshots/Computer_Yearly_Comparison.png)
 
 
 **Home Appliances:** The leading products also experienced substantial declines. Contoso Water Heater 7.2GPM X1800 White fell from approximately $75K to $3K, a reduction of $72K (-96.0%). Contoso Water Heater 7.2GPM X1800 Grey declined from $55K to $21K, down $34K (-61.8%). These declines help explain the significant year-over-year reduction observed in the Home Appliances category.
