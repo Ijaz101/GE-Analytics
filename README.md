@@ -136,6 +136,174 @@ Country and regional analysis helps identify:
 * Geographic areas with potential recovery opportunities
 * Differences in sales performance across regions
 
+  ### 🌍 Geographic Performance
+
+Geographic analysis was used to identify which countries and cities contributed to the overall sales decline and whether the downturn was consistent across individual markets.
+
+The analysis follows a **Region → Country → City** drill-down approach. The country-level analysis identifies the largest markets, while the drillthrough analysis provides a deeper view of city-level performance within each selected country.
+
+![Geographic Sales Performance](Dashboard_Screenshots/Geographic_Performance.png)
+
+#### 🇺🇸 United States — Largest Market
+
+The **United States is the company's largest market**, but sales declined from approximately **$10.2M last year to $4.1M in the current year**, representing a **59.8% YoY decline**.
+
+The city-level analysis shows that the decline was widespread across several major U.S. markets.
+
+![U.S. City Performance](Dashboard_Screenshots/US_City_Performance.png)
+
+Some of the largest city-level declines were:
+
+| City          | LY Sales | CY Sales | YoY Change |
+| ------------- | -------: | -------: | ---------: |
+| New York      |    $145K |     $76K | **-47.6%** |
+| Los Angeles   |    $137K |     $61K | **-55.5%** |
+| Houston       |    $123K |     $57K | **-53.7%** |
+| Philadelphia  |    $119K |     $46K | **-61.3%** |
+| Atlanta       |    $102K |     $29K | **-71.6%** |
+| Chicago       |     $96K |     $60K | **-37.5%** |
+| San Francisco |     $97K |     $23K | **-76.3%** |
+| Portland      |     $94K |     $12K | **-87.2%** |
+
+Among these markets, **Portland experienced the sharpest decline at approximately 87.2%**, followed by **San Francisco at 76.3%** and **Atlanta at 71.6%**.
+
+However, city-level performance also reveals important exceptions. **Dallas remained relatively stable**, declining only from $83K to $79K, or approximately **4.8%**. Meanwhile, **Baton Rouge increased from $20K to $33K**, representing approximately **65% growth**, and **Saginaw increased from $17K to $39K**, representing approximately **129.4% growth**.
+
+This indicates that although the U.S. market experienced a significant overall contraction, performance varied considerably across individual cities.
+
+#### 🇬🇧 United Kingdom
+
+The **United Kingdom** was the second-largest market, with sales declining from approximately **$2.1M to $0.7M**, representing a **66.7% YoY decline**.
+
+The city-level analysis reveals a significant change in the composition of sales. Several cities that generated sales last year recorded **zero current-year sales**, representing a **100% decline**:
+
+* **Horsehay:** $25.9K → $0 (**-100%**)
+* **Welwick:** $17.3K → $0 (**-100%**)
+* **Terrington:** $17.0K → $0 (**-100%**)
+* **Hersham:** $16.4K → $0 (**-100%**)
+* **Selsfield Common:** $16.3K → $0 (**-100%**)
+* **Longhope:** $15.9K → $0 (**-100%**)
+* **Combe St Nicholas:** $15.7K → $0 (**-100%**)
+* **Kingsand:** $15.3K → $0 (**-100%**)
+* **Grindle:** $15.3K → $0 (**-100%**)
+
+At the same time, several cities generated current-year sales despite having no sales last year:
+
+* **Brampton Bryan:** $0 → $17.1K
+* **Whitson:** $0 → $15.4K
+* **Stoke Gabriel:** $0 → $15.0K
+* **Lenton:** $0 → $14.4K
+
+Because these cities had **zero LY sales**, a meaningful YoY percentage cannot be calculated. Instead, they represent **new current-year contributors**.
+
+This suggests that the UK decline is accompanied by a **shift in the geographic composition of sales**, with some previously active cities disappearing while new cities emerge as contributors.
+
+#### 🇩🇪 Germany
+
+Germany experienced a decline from approximately **$1.9M to $0.6M**, representing a **68.4% YoY decline**.
+
+The city-level analysis shows mixed performance:
+
+| City        | LY Sales | CY Sales |  YoY Change |
+| ----------- | -------: | -------: | ----------: |
+| München     |     $34K |     $13K |  **-61.8%** |
+| Nordestedt  |      $7K |      $9K |  **+28.6%** |
+| Taufkirchen |     $18K |      $2K |  **-88.9%** |
+| Weiden      |      $1K |     $18K | **+1,700%** |
+| Schermbeck  |      $4K |     $15K |   **+275%** |
+
+While major contributors such as **München and Taufkirchen declined sharply**, smaller markets including **Weiden and Schermbeck** recorded significant growth.
+
+Weiden increased from $1K to $18K, although the very low LY base makes the percentage growth exceptionally large. This is a good example of why **absolute sales impact should be considered alongside YoY percentage change**.
+
+Germany therefore demonstrates that an overall country-level decline can coexist with strong growth in individual cities.
+
+#### 🇨🇦 Canada
+
+Canada declined from approximately **$1.5M to $0.6M**, representing a **60% YoY decline**.
+
+The largest Canadian markets experienced significant reductions:
+
+| City      | LY Sales | CY Sales | YoY Change |
+| --------- | -------: | -------: | ---------: |
+| Toronto   |    $194K |     $99K | **-49.0%** |
+| Vancouver |     $91K |     $25K | **-72.5%** |
+| Calgary   |     $80K |     $13K | **-83.8%** |
+| Montreal  |     $79K |     $59K | **-25.3%** |
+| Ottawa    |     $45K |     $28K | **-37.8%** |
+| Edmonton  |     $36K |     $15K | **-58.3%** |
+
+However, smaller cities showed a different pattern:
+
+* **Kitscoty:** $1K → $17K (**+1,600%**)
+* **Gibsons:** $1K → $17K (**+1,600%**)
+* **Welland:** $0 → $19K (**new current-year contributor**)
+
+The Canadian market therefore shows a similar pattern to the U.S. and UK: **large established markets declined while some smaller markets emerged or grew.**
+
+#### 🇦🇺 Australia
+
+Australia declined from approximately **$0.9M to $0.3M**, representing a **66.7% YoY decline**.
+
+Several cities that contributed meaningful sales last year recorded no current-year sales:
+
+* **Doncaster East:** $26.7K → $0 (**-100%**)
+* **Bandya:** $22.5K → $0 (**-100%**)
+* **Castle Doyle:** $18.7K → $0 (**-100%**)
+
+At the same time, new city-level contributions appeared in the current year:
+
+* **Birdwoodton:** $0 → ~$14K
+* **Gascoyne River:** $0 → ~$14K
+* **Oberne Creek:** $0 → ~$14K
+
+Since these cities had no LY sales, their YoY percentage change is **not meaningful**. They are better interpreted as **new current-year contributors**.
+
+This suggests that Australia's decline is also associated with a **shift in the locations contributing to revenue**.
+
+#### 🔎 Geographic Drillthrough Analysis
+
+To investigate these patterns in greater detail, a **Country Performance drillthrough page** was created.
+
+Selecting a country from the main geographic analysis allows the user to drill down into its individual cities and compare:
+
+* **Current-Year Sales**
+* **Last-Year Sales**
+* **YoY % Change**
+
+![Country Performance Drillthrough](Dashboard_Screenshots/Country_Performance_Drillthrough.png)
+
+The drillthrough analysis helps answer two levels of business questions:
+
+> **Which countries are contributing to the overall decline?**
+
+and
+
+> **Which cities within those countries are driving the change?**
+
+The analysis also highlights an important distinction between **declining markets and emerging markets**. While most major markets experienced substantial reductions, some cities continued to grow or generated sales for the first time in the current year.
+
+### 📊 Key Geographic Findings
+
+| Market         | LY Sales | CY Sales | YoY Change |
+| -------------- | -------: | -------: | ---------: |
+| United States  |   $10.2M |    $4.1M | **-59.8%** |
+| United Kingdom |    $2.1M |    $0.7M | **-66.7%** |
+| Germany        |    $1.9M |    $0.6M | **-68.4%** |
+| Canada         |    $1.5M |    $0.6M | **-60.0%** |
+| Australia      |    $0.9M |    $0.3M | **-66.7%** |
+
+The geographic analysis shows that the decline was **broad-based across the company's major markets**, with Germany experiencing the largest percentage decline among the five markets at approximately **68.4%**.
+
+At the same time, the city-level drillthrough reveals that the decline was **not uniform within each country**. Some established cities experienced severe contractions or completely lost their previous-year sales, while smaller or previously inactive cities emerged as new sources of revenue.
+
+This provides a more granular view of where performance has deteriorated and where potential pockets of growth remain.
+
+**Geographic analysis flow:**
+
+**Region → Country → City → Declining & Emerging Markets**
+
+
 ### 👥 Customer Performance
 
 Customer analytics provides visibility into:
