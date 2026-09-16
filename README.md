@@ -127,22 +127,33 @@ The analysis also reveals important exceptions, particularly within Cameras & Ca
 
 This drill-down connects the analysis from category performance to individual product performance, helping identify the products that contributed most to the company's overall sales decline and providing a starting point for deeper investigation into potential drivers such as product demand, pricing, availability, or product mix.
 
+
 ### 🌍 Geographic Performance
 
-Country and regional analysis helps identify:
+Geographic analysis was used to understand how sales performance changed across the company's major markets and to identify the cities contributing to these changes.
 
-* Markets experiencing the largest decline
-* High-revenue markets requiring protection
-* Geographic areas with potential recovery opportunities
-* Differences in sales performance across regions
+The analysis follows a Country → City drill-down approach. The country-level analysis first compares Current-Year (CY) Sales against Last-Year (LY) Sales across the major markets. The analysis then moves deeper into individual countries to understand city-level performance and identify both declining and emerging markets.
 
-  ### 🌍 Geographic Performance
+### 🌎 Sales Performance Across Major Countries
 
-Geographic analysis was used to identify which countries and cities contributed to the overall sales decline and whether the downturn was consistent across individual markets.
+The following chart compares CY Sales against LY Sales across the company's major markets.
 
-The analysis follows a **Region → Country → City** drill-down approach. The country-level analysis identifies the largest markets, while the drillthrough analysis provides a deeper view of city-level performance within each selected country.
+The comparison shows a significant decline across all five major markets:
 
-![Geographic Sales Performance](Dashboard_Screenshots/Geographic_Performance.png)
+Country	LY Sales	CY Sales	YoY Change
+United States	$10.2M	$4.1M	-59.8%
+United Kingdom	$2.1M	$0.7M	-66.7%
+Germany	$1.9M	$0.6M	-68.4%
+Canada	$1.5M	$0.6M	-60.0%
+Australia	$0.9M	$0.3M	-66.7%
+
+The United States remained the largest market, with sales declining from $10.2M to $4.1M, a 59.8% YoY decline.
+
+Germany experienced the largest percentage decline among these five markets, falling from $1.9M to $0.6M, representing a 68.4% decline.
+
+The United Kingdom and Australia each declined by approximately 66.7%, while Canada declined by approximately 60.0%.
+
+This country-level comparison establishes the overall geographic picture before moving into city-level analysis.
 
 #### 🇺🇸 United States — Largest Market
 
