@@ -140,12 +140,8 @@ The following chart compares CY Sales against LY Sales across the company's majo
 
 The comparison shows a significant decline across all five major markets:
 
-Country	LY Sales	CY Sales	YoY Change
-United States	$10.2M	$4.1M	-59.8%
-United Kingdom	$2.1M	$0.7M	-66.7%
-Germany	$1.9M	$0.6M	-68.4%
-Canada	$1.5M	$0.6M	-60.0%
-Australia	$0.9M	$0.3M	-66.7%
+![Sales_Comparison_Overall ](Dashboard_Screenshots/Sales_Comparison_Overall.png)
+
 
 The United States remained the largest market, with sales declining from $10.2M to $4.1M, a 59.8% YoY decline.
 
@@ -155,26 +151,17 @@ The United Kingdom and Australia each declined by approximately 66.7%, while Can
 
 This country-level comparison establishes the overall geographic picture before moving into city-level analysis.
 
-#### 🇺🇸 United States — Largest Market
+####  United States — Largest Market
 
 The **United States is the company's largest market**, but sales declined from approximately **$10.2M last year to $4.1M in the current year**, representing a **59.8% YoY decline**.
 
 The city-level analysis shows that the decline was widespread across several major U.S. markets.
 
-![U.S. City Performance](Dashboard_Screenshots/US_City_Performance.png)
 
 Some of the largest city-level declines were:
 
-| City          | LY Sales | CY Sales | YoY Change |
-| ------------- | -------: | -------: | ---------: |
-| New York      |    $145K |     $76K | **-47.6%** |
-| Los Angeles   |    $137K |     $61K | **-55.5%** |
-| Houston       |    $123K |     $57K | **-53.7%** |
-| Philadelphia  |    $119K |     $46K | **-61.3%** |
-| Atlanta       |    $102K |     $29K | **-71.6%** |
-| Chicago       |     $96K |     $60K | **-37.5%** |
-| San Francisco |     $97K |     $23K | **-76.3%** |
-| Portland      |     $94K |     $12K | **-87.2%** |
+![U.S. City Performance](Dashboard_Screenshots/Sales_Comparison_US.png)
+
 
 Among these markets, **Portland experienced the sharpest decline at approximately 87.2%**, followed by **San Francisco at 76.3%** and **Atlanta at 71.6%**.
 
@@ -182,28 +169,19 @@ However, city-level performance also reveals important exceptions. **Dallas rema
 
 This indicates that although the U.S. market experienced a significant overall contraction, performance varied considerably across individual cities.
 
-#### 🇬🇧 United Kingdom
+####  United Kingdom
 
 The **United Kingdom** was the second-largest market, with sales declining from approximately **$2.1M to $0.7M**, representing a **66.7% YoY decline**.
 
 The city-level analysis reveals a significant change in the composition of sales. Several cities that generated sales last year recorded **zero current-year sales**, representing a **100% decline**:
 
-* **Horsehay:** $25.9K → $0 (**-100%**)
-* **Welwick:** $17.3K → $0 (**-100%**)
-* **Terrington:** $17.0K → $0 (**-100%**)
-* **Hersham:** $16.4K → $0 (**-100%**)
-* **Selsfield Common:** $16.3K → $0 (**-100%**)
-* **Longhope:** $15.9K → $0 (**-100%**)
-* **Combe St Nicholas:** $15.7K → $0 (**-100%**)
-* **Kingsand:** $15.3K → $0 (**-100%**)
-* **Grindle:** $15.3K → $0 (**-100%**)
+
+![U.K. City Performance](Dashboard_Screenshots/Sales_Comparison_Last_Year_High_UK.png)
 
 At the same time, several cities generated current-year sales despite having no sales last year:
 
-* **Brampton Bryan:** $0 → $17.1K
-* **Whitson:** $0 → $15.4K
-* **Stoke Gabriel:** $0 → $15.0K
-* **Lenton:** $0 → $14.4K
+
+![U.K. City Performance](Dashboard_Screenshots/Sales_Comparison_Last_Year_High_UK.png)
 
 Because these cities had **zero LY sales**, a meaningful YoY percentage cannot be calculated. Instead, they represent **new current-year contributors**.
 
