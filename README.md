@@ -187,19 +187,13 @@ Because these cities had **zero LY sales**, a meaningful YoY percentage cannot b
 
 This suggests that the UK decline is accompanied by a **shift in the geographic composition of sales**, with some previously active cities disappearing while new cities emerge as contributors.
 
-#### 🇩🇪 Germany
+####  Germany
 
 Germany experienced a decline from approximately **$1.9M to $0.6M**, representing a **68.4% YoY decline**.
 
 The city-level analysis shows mixed performance:
 
-| City        | LY Sales | CY Sales |  YoY Change |
-| ----------- | -------: | -------: | ----------: |
-| München     |     $34K |     $13K |  **-61.8%** |
-| Nordestedt  |      $7K |      $9K |  **+28.6%** |
-| Taufkirchen |     $18K |      $2K |  **-88.9%** |
-| Weiden      |      $1K |     $18K | **+1,700%** |
-| Schermbeck  |      $4K |     $15K |   **+275%** |
+![Germany City Performance](Dashboard_Screenshots/Sales_Comparison_Germany.png)
 
 While major contributors such as **München and Taufkirchen declined sharply**, smaller markets including **Weiden and Schermbeck** recorded significant growth.
 
@@ -207,20 +201,13 @@ Weiden increased from $1K to $18K, although the very low LY base makes the perce
 
 Germany therefore demonstrates that an overall country-level decline can coexist with strong growth in individual cities.
 
-#### 🇨🇦 Canada
+####  Canada
 
 Canada declined from approximately **$1.5M to $0.6M**, representing a **60% YoY decline**.
 
 The largest Canadian markets experienced significant reductions:
 
-| City      | LY Sales | CY Sales | YoY Change |
-| --------- | -------: | -------: | ---------: |
-| Toronto   |    $194K |     $99K | **-49.0%** |
-| Vancouver |     $91K |     $25K | **-72.5%** |
-| Calgary   |     $80K |     $13K | **-83.8%** |
-| Montreal  |     $79K |     $59K | **-25.3%** |
-| Ottawa    |     $45K |     $28K | **-37.8%** |
-| Edmonton  |     $36K |     $15K | **-58.3%** |
+![Canada City Performance](Dashboard_Screenshots/Sales_Comparison_Canada.png)
 
 However, smaller cities showed a different pattern:
 
@@ -230,47 +217,18 @@ However, smaller cities showed a different pattern:
 
 The Canadian market therefore shows a similar pattern to the U.S. and UK: **large established markets declined while some smaller markets emerged or grew.**
 
-#### 🇦🇺 Australia
+####  Australia
 
 Australia declined from approximately **$0.9M to $0.3M**, representing a **66.7% YoY decline**.
 
-Several cities that contributed meaningful sales last year recorded no current-year sales:
+Several cities that contributed meaningful sales last year recorded no current-year sales, At the same time, new city-level contributions appeared in the current year:
 
-* **Doncaster East:** $26.7K → $0 (**-100%**)
-* **Bandya:** $22.5K → $0 (**-100%**)
-* **Castle Doyle:** $18.7K → $0 (**-100%**)
-
-At the same time, new city-level contributions appeared in the current year:
-
-* **Birdwoodton:** $0 → ~$14K
-* **Gascoyne River:** $0 → ~$14K
-* **Oberne Creek:** $0 → ~$14K
-
-Since these cities had no LY sales, their YoY percentage change is **not meaningful**. They are better interpreted as **new current-year contributors**.
+![Australia City Performance](Dashboard_Screenshots/Sales_Comparison_Australia.png)
 
 This suggests that Australia's decline is also associated with a **shift in the locations contributing to revenue**.
 
-#### 🔎 Geographic Drillthrough Analysis
 
-To investigate these patterns in greater detail, a **Country Performance drillthrough page** was created.
-
-Selecting a country from the main geographic analysis allows the user to drill down into its individual cities and compare:
-
-* **Current-Year Sales**
-* **Last-Year Sales**
-* **YoY % Change**
-
-![Country Performance Drillthrough](Dashboard_Screenshots/Country_Performance_Drillthrough.png)
-
-The drillthrough analysis helps answer two levels of business questions:
-
-> **Which countries are contributing to the overall decline?**
-
-and
-
-> **Which cities within those countries are driving the change?**
-
-The analysis also highlights an important distinction between **declining markets and emerging markets**. While most major markets experienced substantial reductions, some cities continued to grow or generated sales for the first time in the current year.
+The analysis highlights an important distinction between **declining markets and emerging markets**. While most major markets experienced substantial reductions, some cities continued to grow or generated sales for the first time in the current year.
 
 ### 📊 Key Geographic Findings
 
@@ -282,6 +240,7 @@ The analysis also highlights an important distinction between **declining market
 | Canada         |    $1.5M |    $0.6M | **-60.0%** |
 | Australia      |    $0.9M |    $0.3M | **-66.7%** |
 
+Overall, the geographic analysis shows that **all five major markets experienced substantial year-over-year declines, ranging from approximately 59.8% to 68.4%.** However, the city-level analysis demonstrates that the decline was not uniform within each country, with some cities showing resilience or emerging as new contributors.
 The geographic analysis shows that the decline was **broad-based across the company's major markets**, with Germany experiencing the largest percentage decline among the five markets at approximately **68.4%**.
 
 At the same time, the city-level drillthrough reveals that the decline was **not uniform within each country**. Some established cities experienced severe contractions or completely lost their previous-year sales, while smaller or previously inactive cities emerged as new sources of revenue.
