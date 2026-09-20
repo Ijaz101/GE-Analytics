@@ -254,6 +254,149 @@ This provides a more granular view of where performance has deteriorated and whe
 
 ### 👥 Customer Performance
 
+Customer analysis was performed to understand whether the overall sales decline was associated with changes in the customer base, purchasing frequency, customer value, retention, demographics, and purchasing channels.
+
+The analysis compares Current Year (CY) performance with the equivalent Last Year (LY) period.
+
+### 📉 Customer Base Decline
+
+The total number of customers decreased substantially:
+
+Metric	LY	CY	Change
+Total Customers	6.6K	3.0K	-54.5%
+Customer Retention	30.8%	13.2%	-17.6 pp
+Orders per Customer	1.41	1.15	-18.4%
+Average Order Value	$1.98K	$2.01K	+1.5%
+
+The customer base declined from approximately 6.6K customers to 3.0K, representing a reduction of approximately 54.5%.
+
+Customer retention also decreased substantially, from 30.8% to 13.2%, a reduction of 17.6 percentage points.
+
+At the same time, Average Order Value remained relatively stable, increasing slightly from approximately $1.98K to $2.01K.
+
+Orders per customer, however, declined from 1.41 to 1.15, indicating lower purchasing frequency among customers.
+
+🔎 Key Customer Finding
+
+The combination of these metrics provides an important perspective on the sales decline.
+
+While customers who placed orders maintained a relatively similar average order value, the business had fewer customers and fewer orders per customer.
+
+Therefore, the customer analysis suggests that the decline in sales is associated more strongly with customer volume and purchasing frequency than with a major reduction in average transaction value.
+
+👤 Sales by Age Category
+
+Sales declined across all age categories.
+
+Age Category	LY Sales	CY Sales	Approx. YoY Change
+Above 75	$4.3M	$1.7M	-60.5%
+60–75	$4.2M	$1.4M	-66.7%
+45–60	$4.2M	$1.5M	-64.3%
+30–45	$4.1M	$1.7M	-58.5%
+18–30	$1.9M	$0.7M	-63.2%
+
+The Above 75 group remained the largest age category in the current year at approximately $1.7M, although sales decreased substantially from $4.3M.
+
+The 60–75 group experienced one of the largest percentage declines, falling from approximately $4.2M to $1.4M.
+
+The decline was therefore broad-based across all age groups, rather than being concentrated in one particular demographic.
+
+An important observation is that the 30–45 age group experienced the smallest percentage decline, decreasing from $4.1M to $1.7M.
+
+This can be investigated further to determine whether customer retention, purchasing frequency, product mix, or geographic distribution differs for this group.
+
+👥 Sales by Customer Segment
+
+Customer segment analysis shows that the sales decline was broad-based across all major customer segments.
+
+Customer Segment	LY Sales	CY Sales	Approx. YoY Change
+VIP	$1.4M	$0.6M	-57.1%
+Regular	$9.4M	$3.6M	-61.7%
+Low Value	$5.1M	$1.9M	-62.7%
+High Value	$2.6M	$0.9M	-65.4%
+
+The Regular customer segment represented the largest sales contribution, but sales declined from approximately $9.4M to $3.6M, representing a 61.7% decrease.
+
+The Low Value segment declined from $5.1M to $1.9M, while the High Value segment decreased from $2.6M to $0.9M.
+
+VIP customer sales also declined, falling from approximately $1.4M to $0.6M, representing a 57.1% decrease.
+
+Although the VIP segment experienced the smallest percentage decline among the four segments, it still recorded a substantial reduction in sales.
+
+Overall, the analysis indicates that the decline affected all customer segments, with the High Value segment experiencing the largest percentage decline.
+
+🚻 Sales by Gender
+
+The decline was also broad-based across gender.
+
+Gender	LY Sales	CY Sales	Approx. YoY Change
+Male	$9.40M	$3.51M	-62.7%
+Female	$9.14M	$3.44M	-62.4%
+
+Male and female customers showed very similar patterns.
+
+Male customer sales decreased from approximately $9.40M to $3.51M, while female customer sales declined from approximately $9.14M to $3.44M.
+
+Both groups experienced approximately a 62% decline.
+
+This suggests that the sales contraction was not strongly concentrated in one gender group.
+
+The relatively similar decline across both groups is consistent with the broader finding that the sales reduction affected the customer base broadly.
+
+🛒 Sales by Channel
+
+Channel analysis shows that the decline affected both In-Store and Online sales.
+
+Channel	LY Sales	CY Sales	Approx. YoY Change
+In-Store	$14.56M	$5.27M	-63.8%
+Online	$3.98M	$1.68M	-57.8%
+
+In-store sales declined from approximately $14.56M to $5.27M, representing a decline of approximately 63.8%.
+
+Online sales decreased from approximately $3.98M to $1.68M, representing a decline of approximately 57.8%.
+
+Although both channels declined significantly, the decline in In-Store sales was larger in absolute terms because In-Store represented the majority of sales in the previous year.
+
+This suggests that the overall sales decline cannot be explained solely by a shift from physical stores to online purchasing.
+
+🔎 Customer Analytics — Overall Findings
+
+The customer analysis provides several important insights into the overall business decline.
+
+1. Customer numbers declined significantly
+
+The customer base decreased from 6.6K to 3.0K, approximately 54.5%.
+
+2. Customer retention deteriorated
+
+Retention decreased from 30.8% to 13.2%, a reduction of 17.6 percentage points.
+
+3. Purchasing frequency decreased
+
+Orders per customer fell from 1.41 to 1.15, indicating that customers who remained active placed fewer orders.
+
+4. AOV remained relatively stable
+
+Average Order Value increased slightly from $1.98K to $2.01K.
+
+This is particularly important because it suggests that the decline was not primarily associated with customers spending substantially less per order.
+
+5. The decline affected every major age group
+
+All five age categories experienced substantial declines, with decreases ranging from approximately 58.5% to 66.7%.
+
+6. VIP customers were an exception
+
+VIP sales increased from $1.4M to $1.6M, while Regular, Low Value, and High Value segments declined by more than 60%.
+
+7. Gender performance was similar
+
+Male and female sales both declined by approximately 62%, showing no major difference in the overall direction of the decline.
+
+8. Both sales channels declined
+
+In-store sales decreased approximately 63.8%, while online sales decreased approximately 57.8%.
+
 Customer analytics provides visibility into:
 
 * Customer segments
