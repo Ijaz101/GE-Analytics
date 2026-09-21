@@ -262,11 +262,6 @@ The analysis compares Current Year (CY) performance with the equivalent Last Yea
 
 The total number of customers decreased substantially:
 
-Metric	LY	CY	Change
-Total Customers	6.6K	3.0K	-54.5%
-Customer Retention	30.8%	13.2%	-17.6 pp
-Orders per Customer	1.41	1.15	-18.4%
-Average Order Value	$1.98K	$2.01K	+1.5%
 
 | Metric                |    LY     |    CY      |   Change    |
 | --------------------  | -------:  | --------:  | ----------: |
@@ -276,21 +271,21 @@ Average Order Value	$1.98K	$2.01K	+1.5%
 | Average Order Value   |   $1.98K  |    $2.01K  | **+1.5%**   |
 
 
-The customer base declined from approximately 6.6K customers to 3.0K, representing a reduction of approximately 54.5%.
+The customer base declined from approximately **6.6K customers to 3.0K**, representing a reduction of approximately 54.5%.
 
-Customer retention also decreased substantially, from 30.8% to 13.2%, a reduction of 17.6 percentage points.
+Customer retention also decreased substantially, from **30.8% to 13.2%**, a reduction of **17.6 percentage points.**
 
-At the same time, Average Order Value remained relatively stable, increasing slightly from approximately $1.98K to $2.01K.
+At the same time, **Average Order Value remained relatively stable**, increasing slightly from approximately **$1.98K to $2.01K.**
 
-Orders per customer, however, declined from 1.41 to 1.15, indicating lower purchasing frequency among customers.
+Orders per customer, however, declined from **1.41 to 1.15**, indicating lower purchasing frequency among customers.
 
 🔎 Key Customer Finding
 
 The combination of these metrics provides an important perspective on the sales decline.
 
-While customers who placed orders maintained a relatively similar average order value, the business had fewer customers and fewer orders per customer.
+While customers who placed orders maintained a relatively similar average order value, the business had **fewer customers and fewer orders per customer.**
 
-Therefore, the customer analysis suggests that the decline in sales is associated more strongly with customer volume and purchasing frequency than with a major reduction in average transaction value.
+Therefore, the customer analysis suggests that the decline in sales is associated more strongly with customer **volume and purchasing frequency** than with a major reduction in average transaction value.
 
 👤 Sales by Age Category
 
