@@ -346,7 +346,7 @@ The relatively similar decline across both groups is consistent with the broader
 Channel analysis shows that the decline affected both In-Store and Online sales.
 
 
-![Sales_By_Deliver_Status](Dashboard_Screenshots/Sales_By_Deliver_Status.png)
+![Sales_By_Deliver_Status](Dashboard_Screenshots/Sales_By_Delivery_Status.png)
 
 
 In-store sales declined from approximately **$14.56M to $5.27M,** representing a decline of approximately **63.8%.**
