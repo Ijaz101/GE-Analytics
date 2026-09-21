@@ -295,13 +295,13 @@ Sales declined across all age categories.
 ![Sales_By_Age_Category](Dashboard_Screenshots/Sales_By_Age_Group.png)
 
 
-The Above 75 group remained the largest age category in the current year at approximately $1.7M, although sales decreased substantially from $4.3M.
+The **Above 75** group remained the largest age category in the current year at approximately **$1.7M**, although sales decreased substantially from $4.3M.
 
-The 60–75 group experienced one of the largest percentage declines, falling from approximately $4.2M to $1.4M.
+The **60–75** group experienced one of the largest percentage declines, falling from approximately $4.2M to $1.4M.
 
-The decline was therefore broad-based across all age groups, rather than being concentrated in one particular demographic.
+The decline was therefore **broad-based across all age groups**, rather than being concentrated in one particular demographic.
 
-An important observation is that the 30–45 age group experienced the smallest percentage decline, decreasing from $4.1M to $1.7M.
+An important observation is that the **30–45 age group experienced the smallest percentage decline**, decreasing from $4.1M to $1.7M.
 
 This can be investigated further to determine whether customer retention, purchasing frequency, product mix, or geographic distribution differs for this group.
 
@@ -313,7 +313,7 @@ Customer segment analysis shows that the sales decline was broad-based across al
 ![Sales_By_Customer_Segment](Dashboard_Screenshots/Sales_By_Customer_Segment.png)
 
 
-The Regular customer segment represented the largest sales contribution, but sales declined from approximately $9.4M to $3.6M, representing a 61.7% decrease.
+The **Regular customer** segment represented the largest sales contribution, but sales declined from approximately **$9.4M to $3.6M**, representing a **61.7% decrease.**
 
 The Low Value segment declined from $5.1M to $1.9M, while the High Value segment decreased from $2.6M to $0.9M.
 
@@ -323,19 +323,19 @@ Although the VIP segment experienced the smallest percentage decline among the f
 
 Overall, the analysis indicates that the decline affected all customer segments, with the High Value segment experiencing the largest percentage decline.
 
+
 ### 🚻 Sales by Gender
 
 The decline was also broad-based across gender.
 
-Gender	LY Sales	CY Sales	Approx. YoY Change
-Male	$9.40M	$3.51M	-62.7%
-Female	$9.14M	$3.44M	-62.4%
+![Sales_By_Gender](Dashboard_Screenshots/Sales_By_Gender.png)
+
 
 Male and female customers showed very similar patterns.
 
-Male customer sales decreased from approximately $9.40M to $3.51M, while female customer sales declined from approximately $9.14M to $3.44M.
+Male customer sales decreased from approximately **$9.40M to $3.51M**, while female customer sales declined from approximately **$9.14M to $3.44M**.
 
-Both groups experienced approximately a 62% decline.
+Both groups experienced approximately a **62% decline.**
 
 This suggests that the sales contraction was not strongly concentrated in one gender group.
 
@@ -345,15 +345,15 @@ The relatively similar decline across both groups is consistent with the broader
 
 Channel analysis shows that the decline affected both In-Store and Online sales.
 
-Channel	LY Sales	CY Sales	Approx. YoY Change
-In-Store	$14.56M	$5.27M	-63.8%
-Online	$3.98M	$1.68M	-57.8%
 
-In-store sales declined from approximately $14.56M to $5.27M, representing a decline of approximately 63.8%.
+![Sales_By_Deliver_Status](Dashboard_Screenshots/Sales_By_Deliver_Status.png)
 
-Online sales decreased from approximately $3.98M to $1.68M, representing a decline of approximately 57.8%.
 
-Although both channels declined significantly, the decline in In-Store sales was larger in absolute terms because In-Store represented the majority of sales in the previous year.
+In-store sales declined from approximately **$14.56M to $5.27M,** representing a decline of approximately **63.8%.**
+
+Online sales decreased from approximately **$3.98M to $1.68M,** representing a decline of approximately **57.8%.**
+
+Although **both channels declined significantly,** the decline in In-Store sales was larger in absolute terms because In-Store represented the majority of sales in the previous year.
 
 This suggests that the overall sales decline cannot be explained solely by a shift from physical stores to online purchasing.
 
