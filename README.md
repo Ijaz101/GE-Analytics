@@ -287,16 +287,13 @@ While customers who placed orders maintained a relatively similar average order 
 
 Therefore, the customer analysis suggests that the decline in sales is associated more strongly with customer **volume and purchasing frequency** than with a major reduction in average transaction value.
 
-👤 Sales by Age Category
+
+### 👤 Sales by Age Category
 
 Sales declined across all age categories.
 
-Age Category	LY Sales	CY Sales	Approx. YoY Change
-Above 75	$4.3M	$1.7M	-60.5%
-60–75	$4.2M	$1.4M	-66.7%
-45–60	$4.2M	$1.5M	-64.3%
-30–45	$4.1M	$1.7M	-58.5%
-18–30	$1.9M	$0.7M	-63.2%
+![Sales_By_Age_Category](Dashboard_Screenshots/Sales_By_Age_Category.png)
+
 
 The Above 75 group remained the largest age category in the current year at approximately $1.7M, although sales decreased substantially from $4.3M.
 
@@ -308,15 +305,13 @@ An important observation is that the 30–45 age group experienced the smallest 
 
 This can be investigated further to determine whether customer retention, purchasing frequency, product mix, or geographic distribution differs for this group.
 
-👥 Sales by Customer Segment
+
+### 👥 Sales by Customer Segment
 
 Customer segment analysis shows that the sales decline was broad-based across all major customer segments.
 
-Customer Segment	LY Sales	CY Sales	Approx. YoY Change
-VIP	$1.4M	$0.6M	-57.1%
-Regular	$9.4M	$3.6M	-61.7%
-Low Value	$5.1M	$1.9M	-62.7%
-High Value	$2.6M	$0.9M	-65.4%
+![Sales_By_Customer_Segment](Dashboard_Screenshots/Sales_By_Customer_Segment.png)
+
 
 The Regular customer segment represented the largest sales contribution, but sales declined from approximately $9.4M to $3.6M, representing a 61.7% decrease.
 
@@ -328,7 +323,7 @@ Although the VIP segment experienced the smallest percentage decline among the f
 
 Overall, the analysis indicates that the decline affected all customer segments, with the High Value segment experiencing the largest percentage decline.
 
-🚻 Sales by Gender
+### 🚻 Sales by Gender
 
 The decline was also broad-based across gender.
 
@@ -346,7 +341,7 @@ This suggests that the sales contraction was not strongly concentrated in one ge
 
 The relatively similar decline across both groups is consistent with the broader finding that the sales reduction affected the customer base broadly.
 
-🛒 Sales by Channel
+### 🛒 Sales by Channel
 
 Channel analysis shows that the decline affected both In-Store and Online sales.
 
@@ -362,7 +357,7 @@ Although both channels declined significantly, the decline in In-Store sales was
 
 This suggests that the overall sales decline cannot be explained solely by a shift from physical stores to online purchasing.
 
-🔎 Customer Analytics — Overall Findings
+### 🔎 Customer Analytics — Overall Findings
 
 The customer analysis provides several important insights into the overall business decline.
 
