@@ -292,7 +292,7 @@ Therefore, the customer analysis suggests that the decline in sales is associate
 
 Sales declined across all age categories.
 
-![Sales_By_Age_Category](Dashboard_Screenshots/Sales_By_Age_Category.png)
+![Sales_By_Age_Category](Dashboard_Screenshots/Sales_By_Age_Group.png)
 
 
 The Above 75 group remained the largest age category in the current year at approximately $1.7M, although sales decreased substantially from $4.3M.
