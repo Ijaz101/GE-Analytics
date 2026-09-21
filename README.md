@@ -254,7 +254,7 @@ This provides a more granular view of where performance has deteriorated and whe
 
 ### 👥 Customer Performance
 
-Customer analysis was performed to understand whether the overall sales decline was associated with changes in the customer base, purchasing frequency, customer value, retention, demographics, and purchasing channels.
+Customer analysis was performed to understand whether the overall sales decline was associated with changes in the **customer base, purchasing frequency, customer value, retention, demographics, and purchasing channels.**
 
 The analysis compares Current Year (CY) performance with the equivalent Last Year (LY) period.
 
@@ -267,6 +267,14 @@ Total Customers	6.6K	3.0K	-54.5%
 Customer Retention	30.8%	13.2%	-17.6 pp
 Orders per Customer	1.41	1.15	-18.4%
 Average Order Value	$1.98K	$2.01K	+1.5%
+
+| Metric                |    LY    |    CY     |   Change    |
+| --------------------  | -------: | --------: | ----------: |
+| Total Customers       |   6.6K   |    3.0K   | **-54.5%**  |
+| Customer Retention    |   30.8%  |    13.2%  | **-17.6pp** |
+| Orders per Customer   |   1.41   |    1.15   | **-18.4%**  |
+| Average Order Value   |   $1.98K |    $2.01K | **+1.5%**   |
+
 
 The customer base declined from approximately 6.6K customers to 3.0K, representing a reduction of approximately 54.5%.
 
