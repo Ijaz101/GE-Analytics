@@ -408,13 +408,103 @@ This helps determine whether declining revenue is associated with **fewer custom
 
 ### 💰 Profitability
 
-Sales performance is analyzed alongside cost and profit metrics to understand whether declining revenue is also creating pressure on profitability.
+## 💰 Profitability Analysis
 
-This allows the business to distinguish between:
+Profitability analysis compares **Last Year (LY) vs Current Year (CY)** across overall performance, product categories, products, and geographic markets. The objective is to identify where profit declined most and which areas had the largest impact on overall profitability.
 
-> **Revenue decline** vs. **profitability decline**
+### 📊 Profit vs Sales Relationship
 
-and prioritize actions that can improve both sales and business value.
+The category-level scatter plot shows a clear positive relationship between **Total Sales and Total Profit**. Categories generating higher sales also tend to contribute higher total profit.
+
+* **Computers** generated the highest Total Sales at **$19.3M** and the highest Total Profit at **$11.2M**.
+* **Home Appliances** followed with **$10.8M Sales** and **$6.2M Profit**.
+* **Cameras & Camcorders**, **Cell Phones**, and **TV & Video** formed the next group in terms of both sales and profit contribution.
+* **Music, Movies & Audio Books** had the lowest sales and profit among the categories shown.
+
+Overall, the chart indicates that the largest revenue-generating categories are also the largest contributors to total profit.
+
+### 📉 Overall Profitability — LY vs CY
+
+Across the comparable **March–February period**, total profit declined from approximately **$10.85M in LY to $3.01M in CY**, representing a **72.3% decline**.
+
+| Month     | LY Profit | CY Profit |  % Decline |
+| --------- | --------: | --------: | ---------: |
+| March     |    $0.50M |    $0.40M |      20.0% |
+| April     |    $0.09M |    $0.13M | **+44.4%** |
+| May       |    $0.93M |    $0.51M |      45.2% |
+| June      |    $0.83M |    $0.44M |      47.0% |
+| July      |    $0.82M |    $0.30M |      63.4% |
+| August    |    $0.88M |    $0.25M |      71.6% |
+| September |    $0.92M |    $0.22M |      76.1% |
+| October   |    $0.91M |    $0.14M |      84.6% |
+| November  |    $1.01M |    $0.15M |      85.1% |
+| December  |    $1.44M |    $0.38M |      73.6% |
+| January   |    $1.21M |    $0.03M |      97.5% |
+| February  |    $1.31M |    $0.03M |      97.7% |
+
+**Key observation:** Profit was lower in almost every month, with the decline becoming particularly severe from **July onward**. January and February recorded the largest deterioration, with CY profit approximately **98% lower than LY**.
+
+### 🏷️ Category Profitability — LY vs CY
+
+Profit declined across **all major product categories**.
+
+| Category                    | LY Profit | CY Profit | Profit Change | % Decline |
+| --------------------------- | --------: | --------: | ------------: | --------: |
+| Computers                   |     $4.1M |     $1.7M |        -$2.4M | **58.5%** |
+| Home Appliances             |     $1.5M |     $0.4M |        -$1.1M | **73.3%** |
+| Cameras & Camcorders        |     $1.4M |     $0.5M |        -$0.9M | **64.3%** |
+| Cell Phones                 |     $1.3M |     $0.5M |        -$0.8M | **61.5%** |
+| TV & Video                  |     $1.0M |     $0.4M |        -$0.6M | **60.0%** |
+| Music, Movies & Audio Books |     $0.6M |     $0.3M |        -$0.3M | **50.0%** |
+| Audio                       |     $0.6M |     $0.2M |        -$0.4M | **66.7%** |
+| Games & Toys                |     $0.2M |     $0.1M |        -$0.1M | **50.0%** |
+
+**Key observations:**
+
+* **Computers** experienced the largest absolute profit decline of **$2.4M**, making it the biggest contributor to the overall reduction.
+* **Home Appliances** recorded the highest decline among the larger categories at **73.3%**.
+* **Cameras & Camcorders** and **Audio** also experienced substantial declines of **64.3%** and **66.7%**, respectively.
+* **Cell Phones** declined by **61.5%**, from $1.3M to $0.5M.
+* Every category shown experienced a year-over-year decline in profit.
+
+### 🛒 Product Profitability — LY vs CY
+
+The high-profit products also experienced significant reductions in CY profit.
+
+| Product                                    | LY Profit | CY Profit | Profit Change | % Decline |
+| ------------------------------------------ | --------: | --------: | ------------: | --------: |
+| Adventure Works 52" LCD HDTV X590 White    |     $116K |       $4K |        -$112K | **96.6%** |
+| Adventure Works Desktop PC2.33 XD233 Black |     $110K |      $25K |         -$85K | **77.3%** |
+| WWI Desktop PC2.33 X2330 Black             |     $115K |      $43K |         -$72K | **62.6%** |
+| WWI Desktop PC2.33 X2330 Brown             |     $108K |      $36K |         -$72K | **66.7%** |
+| Adventure Works 52" LCD HDTV X590 Black    |      $91K |      $23K |         -$68K | **74.7%** |
+
+The largest decline among the products shown was the **Adventure Works 52" LCD HDTV X590 White**, where profit fell by approximately **96.6%**.
+
+### 🌍 Geographic Profitability — LY vs CY
+
+Profit declined across all five leading countries.
+
+| Country        | LY Profit | CY Profit | Profit Change | % Decline |
+| -------------- | --------: | --------: | ------------: | --------: |
+| United States  |     $6.0M |     $2.4M |        -$3.6M | **60.0%** |
+| United Kingdom |     $1.2M |     $0.4M |        -$0.8M | **66.7%** |
+| Germany        |     $1.1M |     $0.4M |        -$0.7M | **63.6%** |
+| Canada         |     $0.9M |     $0.4M |        -$0.5M | **55.6%** |
+| Australia      |     $0.5M |     $0.2M |        -$0.3M | **60.0%** |
+
+The **United States** had the largest absolute decline, with profit decreasing by **$3.6M**, while the **United Kingdom** recorded the largest percentage decline among the top five countries at **66.7%**.
+
+### 🔎 Key Profitability Findings
+
+* Overall profit declined from **$10.85M to $3.01M**, representing a **72.3% year-over-year decline**.
+* Profit declined more sharply than the previously identified sales decline, indicating a significant deterioration in overall profitability.
+* **Computers** had the largest absolute category profit decline at **$2.4M**.
+* **Home Appliances** recorded the largest percentage decline among the major categories at **73.3%**.
+* High-profit products, particularly **desktop PCs and large-screen HDTVs**, experienced substantial profit reductions.
+* The **United States** accounted for the largest geographic profit decline at **$3.6M**.
+* The decline was broad-based across **categories, products, and major geographic markets**, rather than being concentrated in a single area.
+
 
 ---
 
