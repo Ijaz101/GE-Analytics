@@ -421,6 +421,8 @@ The category-level scatter plot shows a clear positive relationship between **To
 * **Cameras & Camcorders**, **Cell Phones**, and **TV & Video** formed the next group in terms of both sales and profit contribution.
 * **Music, Movies & Audio Books** had the lowest sales and profit among the categories shown.
 
+  
+
 Overall, the chart indicates that the largest revenue-generating categories are also the largest contributors to total profit.
 
 ### 📉 Overall Profitability — LY vs CY
