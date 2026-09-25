@@ -429,20 +429,12 @@ Overall, the chart indicates that the largest revenue-generating categories are 
 
 Across the comparable **March–February period**, total profit declined from approximately **$10.85M in LY to $3.01M in CY**, representing a **72.3% decline**.
 
-| Month     | LY Profit | CY Profit |  % Decline |
-| --------- | --------: | --------: | ---------: |
-| March     |    $0.50M |    $0.40M |      20.0% |
-| April     |    $0.09M |    $0.13M | **+44.4%** |
-| May       |    $0.93M |    $0.51M |      45.2% |
-| June      |    $0.83M |    $0.44M |      47.0% |
-| July      |    $0.82M |    $0.30M |      63.4% |
-| August    |    $0.88M |    $0.25M |      71.6% |
-| September |    $0.92M |    $0.22M |      76.1% |
-| October   |    $0.91M |    $0.14M |      84.6% |
-| November  |    $1.01M |    $0.15M |      85.1% |
-| December  |    $1.44M |    $0.38M |      73.6% |
-| January   |    $1.21M |    $0.03M |      97.5% |
-| February  |    $1.31M |    $0.03M |      97.7% |
+ ![Profit_Trend](Dashboard_Screenshots/Profit_Trend.png)
+
+
+  ![Profit_Trend_Jan_Feb](Dashboard_Screenshots/Profit_Trend_LY.png)
+
+  
 
 **Key observation:** Profit was lower in almost every month, with the decline becoming particularly severe from **July onward**. January and February recorded the largest deterioration, with CY profit approximately **98% lower than LY**.
 
