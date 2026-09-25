@@ -429,7 +429,7 @@ Overall, the chart indicates that the largest revenue-generating categories are 
 Across the comparable **March–February period**, total profit declined from approximately **$10.85M in LY to $3.01M in CY**, representing a **72.3% decline**.
 
 
-
+ ![Profit_Trend](Dashboard_Screenshots/Profit_Trend.png)
 
  
  ![Profit_Trend_Jan_Feb](Dashboard_Screenshots/Profit_Trend_LY.png)
