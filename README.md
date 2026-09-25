@@ -406,7 +406,6 @@ Customer analytics provides visibility into:
 
 This helps determine whether declining revenue is associated with **fewer customers, lower purchasing frequency, lower order value, or a combination of factors**.
 
-### 💰 Profitability
 
 ## 💰 Profitability Analysis
 
