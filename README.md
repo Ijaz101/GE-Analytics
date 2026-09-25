@@ -432,7 +432,8 @@ Across the comparable **March–February period**, total profit declined from ap
  ![Profit_Trend](Dashboard_Screenshots/Profit_Trend.png)
 
 
-  ![Profit_Trend_Jan_Feb](Dashboard_Screenshots/Profit_Trend_LY.png)
+ 
+ ![Profit_Trend_Jan_Feb](Dashboard_Screenshots/Profit_Trend_LY.png)
 
   
 
@@ -442,18 +443,9 @@ Across the comparable **March–February period**, total profit declined from ap
 
 Profit declined across **all major product categories**.
 
-| Category                    | LY Profit | CY Profit | Profit Change | % Decline |
-| --------------------------- | --------: | --------: | ------------: | --------: |
-| Computers                   |     $4.1M |     $1.7M |        -$2.4M | **58.5%** |
-| Home Appliances             |     $1.5M |     $0.4M |        -$1.1M | **73.3%** |
-| Cameras & Camcorders        |     $1.4M |     $0.5M |        -$0.9M | **64.3%** |
-| Cell Phones                 |     $1.3M |     $0.5M |        -$0.8M | **61.5%** |
-| TV & Video                  |     $1.0M |     $0.4M |        -$0.6M | **60.0%** |
-| Music, Movies & Audio Books |     $0.6M |     $0.3M |        -$0.3M | **50.0%** |
-| Audio                       |     $0.6M |     $0.2M |        -$0.4M | **66.7%** |
-| Games & Toys                |     $0.2M |     $0.1M |        -$0.1M | **50.0%** |
 
-**Key observations:**
+![Profit_By_Category](Dashboard_Screenshots/Profit_By_Category.png)
+
 
 * **Computers** experienced the largest absolute profit decline of **$2.4M**, making it the biggest contributor to the overall reduction.
 * **Home Appliances** recorded the highest decline among the larger categories at **73.3%**.
@@ -465,13 +457,9 @@ Profit declined across **all major product categories**.
 
 The high-profit products also experienced significant reductions in CY profit.
 
-| Product                                    | LY Profit | CY Profit | Profit Change | % Decline |
-| ------------------------------------------ | --------: | --------: | ------------: | --------: |
-| Adventure Works 52" LCD HDTV X590 White    |     $116K |       $4K |        -$112K | **96.6%** |
-| Adventure Works Desktop PC2.33 XD233 Black |     $110K |      $25K |         -$85K | **77.3%** |
-| WWI Desktop PC2.33 X2330 Black             |     $115K |      $43K |         -$72K | **62.6%** |
-| WWI Desktop PC2.33 X2330 Brown             |     $108K |      $36K |         -$72K | **66.7%** |
-| Adventure Works 52" LCD HDTV X590 Black    |      $91K |      $23K |         -$68K | **74.7%** |
+
+![Profit_By_Product](Dashboard_Screenshots/Profit_By_Product.png)
+
 
 The largest decline among the products shown was the **Adventure Works 52" LCD HDTV X590 White**, where profit fell by approximately **96.6%**.
 
@@ -479,13 +467,9 @@ The largest decline among the products shown was the **Adventure Works 52" LCD H
 
 Profit declined across all five leading countries.
 
-| Country        | LY Profit | CY Profit | Profit Change | % Decline |
-| -------------- | --------: | --------: | ------------: | --------: |
-| United States  |     $6.0M |     $2.4M |        -$3.6M | **60.0%** |
-| United Kingdom |     $1.2M |     $0.4M |        -$0.8M | **66.7%** |
-| Germany        |     $1.1M |     $0.4M |        -$0.7M | **63.6%** |
-| Canada         |     $0.9M |     $0.4M |        -$0.5M | **55.6%** |
-| Australia      |     $0.5M |     $0.2M |        -$0.3M | **60.0%** |
+
+![Profit_By_Countries](Dashboard_Screenshots/Profit_By_Countries.png)
+
 
 The **United States** had the largest absolute decline, with profit decreasing by **$3.6M**, while the **United Kingdom** recorded the largest percentage decline among the top five countries at **66.7%**.
 
