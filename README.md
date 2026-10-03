@@ -483,98 +483,146 @@ The **United States** had the largest absolute decline, with profit decreasing b
 * The decline was broad-based across **categories, products, and major geographic markets**, rather than being concentrated in a single area.
 
 
-### 💡 Business Recommendations & Recovery Opportunities
+## 💡 Business Recommendations & Recovery Opportunities
 
-The analysis highlights several areas where the business can focus its recovery efforts. The recommendations below are prioritized by business impact, revenue loss, geographic concentration, and customer impact.
+The analysis goes beyond identifying declining sales by highlighting **where the largest losses occurred, which products and markets were most affected, and which customer groups contributed to the decline**.
 
-1. Focus on the Largest Revenue Opportunity
+### 📌 1. Focus on the Largest Revenue Opportunity
 
-The Computers category experienced the largest revenue decline, falling from approximately $7.1M to $2.84M.
+The **Computers** category experienced the largest revenue decline, falling from approximately **$7.1M to $2.84M**, representing a **$4.26M decrease**.
 
-Several desktop PC products contributed significantly to this decline, with individual revenue losses exceeding $90K–$125K.
+Several desktop PC products contributed significantly to this decline, with individual revenue losses exceeding **$90K–$125K**.
 
-Business opportunity: Review the performance, availability, pricing, and customer demand for the highest-impact computer products to identify opportunities to recover lost sales.
+**Business opportunity:**
+Review the performance, availability, pricing, and customer demand of the highest-impact computer products to identify potential opportunities for revenue recovery.
 
-2. Address Major Product-Level Declines
+---
 
-The analysis identified several products with significant revenue losses:
+### 📌 2. Prioritize High-Impact Products
 
-Product	Revenue Loss
-Adventure Works 52" LCD HDTV X590 White	-$168K
-Adventure Works Desktop PC2.33 XD233 Black	-$127K
-WWI Desktop PC2.33 X2330 Black	-$108K
-Contoso Water Heater 7.2GPM X1800 White	-$72K
-Fabrikam Trendsetter 1/3" 8.5mm X200 Black	-$51K
-The Phone Company Touch Screen Phone 1600 TFT -1.4" L250 Gold	-$37K
+The analysis identified several products with substantial revenue losses:
 
-Business opportunity: Create a focused recovery plan for the products generating the largest absolute revenue losses rather than concentrating only on products with the highest percentage decline.
+| Category             | Product                                                       | Revenue Loss |
+| -------------------- | ------------------------------------------------------------- | -----------: |
+| TV & Video           | Adventure Works 52" LCD HDTV X590 White                       |   **-$168K** |
+| Computers            | Adventure Works Desktop PC2.33 XD233 Black                    |   **-$127K** |
+| Computers            | WWI Desktop PC2.33 X2330 Black                                |   **-$108K** |
+| Home Appliances      | Contoso Water Heater 7.2GPM X1800 White                       |    **-$72K** |
+| Cameras & Camcorders | Fabrikam Trendsetter 1/3" 8.5mm X200 Black                    |    **-$51K** |
+| Cell Phones          | The Phone Company Touch Screen Phone 1600 TFT -1.4" L250 Gold |    **-$37K** |
 
-3. Prioritize Key Markets
+**Business opportunity:**
+Prioritize recovery efforts based on **absolute revenue loss and business impact**, rather than focusing only on products with the highest percentage decline.
 
-The United States appears repeatedly among the largest markets affected by product-level declines.
+---
 
-For example, the US experienced significant reductions across Computers, TV & Video, Cameras & Camcorders, and Cell Phones.
+### 📌 3. Identify Key Markets and Locations
 
-Other markets also show product-specific opportunities. For example, the Grey Water Heater experienced a decline from approximately $19K to $0 in Germany.
+The **United States** appears repeatedly among the largest markets affected by product-level declines.
 
-Business opportunity: Identify markets and cities where previously strong product sales have dropped sharply and determine whether targeted commercial actions could help recover demand.
+Significant declines were observed across:
 
-4. Re-Engage High-Value Customers
+* Computers
+* TV & Video
+* Cameras & Camcorders
+* Cell Phones
 
-The decline is also visible across important customer groups.
+Other markets also show product-specific opportunities. For example, the **Contoso Water Heater 7.2GPM X1800 Grey** declined from approximately **$19K to $0 in Germany**.
 
-Several high-impact products experienced substantial reductions among VIP, High Value, and Regular customers.
+**Business opportunity:**
+Drill down from **Country → City → Product** to identify locations where previously strong sales have dropped significantly and investigate the reasons behind the decline.
 
-For example:
+---
 
-TV & Video VIP sales declined by approximately $116K
-Computer XD233 Black Regular sales declined by approximately $84K
-Computer X2330 Black High Value sales declined by approximately $79K
-Camera High Value sales declined by approximately $40K
+### 📌 4. Re-Engage High-Value Customers
 
-The overall customer base also declined significantly, alongside lower retention and orders per customer.
+The decline also affected important customer groups, including **VIP, High Value, and Regular customers**.
 
-Business opportunity: Identify customers who previously purchased high-value products but have reduced or stopped purchasing, and evaluate targeted retention and re-engagement opportunities.
+Examples include:
 
-5. Strengthen Customer Retention
+* TV & Video VIP customers: approximately **-$116K**
+* Computer XD233 Black Regular customers: approximately **-$84K**
+* Computer X2330 Black High Value customers: approximately **-$79K**
+* Camera High Value customers: approximately **-$40K**
 
-Total customers declined from approximately 6.6K to 3.0K, while retention declined from 30.8% to 13.2%.
+The overall customer base also declined from approximately **6.6K to 3.0K**, while customer retention decreased from **30.8% to 13.2%**.
 
-This indicates that the sales decline is not only related to lower transaction values; the business is also serving fewer returning customers.
+**Business opportunity:**
+Identify previously active and high-value customers who have reduced or stopped purchasing and evaluate targeted **retention and re-engagement strategies**.
 
-Business opportunity: Focus on customer retention, repeat purchases, and reactivation of previously active customers.
+---
 
-6. Review Channel Performance
+### 📌 5. Strengthen Customer Retention
 
-Both major sales channels experienced significant declines:
+Customer performance indicates that the sales decline was not only driven by lower sales per transaction.
 
-In-store: $14.56M → $5.27M
-Online: $3.98M → $1.68M
+Key changes include:
 
-The decline was therefore broad rather than isolated to a single channel.
+| KPI                 | Previous Period | Current Period |
+| ------------------- | --------------: | -------------: |
+| Customers           |            6.6K |           3.0K |
+| Retention Rate      |           30.8% |          13.2% |
+| Orders / Customer   |            1.41 |           1.15 |
+| Average Order Value |          $1.98K |         $2.01K |
 
-Business opportunity: Compare product, customer, and geographic performance across online and in-store channels to identify where sales recovery opportunities are concentrated.
+While **Average Order Value remained relatively stable**, the business experienced a significant reduction in customers, retention, and purchase frequency.
 
-7. Turn the Analysis Into an Action Plan
+**Business opportunity:**
+Focus on **customer retention, repeat purchases, and reactivation** to rebuild the customer base.
 
-The dashboard can support a practical recovery process:
+---
 
-Identify → Prioritize → Investigate → Act → Monitor
+### 📌 6. Review Both Sales Channels
 
-Identify products, markets, and customers with the largest losses.
-Prioritize opportunities based on absolute revenue and profit impact.
-Investigate the underlying business factors behind the decline.
-Act through appropriate commercial or operational initiatives.
-Monitor recovery using revenue, profit, customers, retention, and repeat-purchase KPIs.
-🎯 Key Business Takeaway
+The decline was visible across both major sales channels:
 
-The analysis shows that the decline is concentrated across specific products, markets, and customer groups rather than being evenly distributed across the business.
+* 🏪 **In-Store:** $14.56M → $5.27M
+* 💻 **Online:** $3.98M → $1.68M
 
-The greatest opportunity is therefore to move from simply reporting declining sales to identifying where the largest losses occurred and which areas deserve deeper investigation and potential recovery action.
+This indicates that the decline was not isolated to a single channel.
 
-From Dashboard Insights → To Business Action
+**Business opportunity:**
+Compare product, customer, and geographic performance across **Online vs. In-Store** to identify where recovery opportunities are concentrated.
 
-The analysis provides management with a clear starting point for prioritizing recovery opportunities and monitoring their impact over time.
+---
+
+### 📌 7. Recommended Business Action Framework
+
+The analysis can support a structured recovery process:
+
+```text
+Identify
+   ↓
+Prioritize
+   ↓
+Investigate
+   ↓
+Act
+   ↓
+Monitor
+```
+
+**Identify** → Find products, markets, and customer groups with the largest losses.
+
+**Prioritize** → Focus on opportunities with the greatest absolute revenue and profit impact.
+
+**Investigate** → Examine potential factors such as product availability, pricing, inventory, customer demand, product lifecycle, and channel performance.
+
+**Act** → Develop appropriate commercial or operational initiatives based on the findings.
+
+**Monitor** → Track revenue, profit, customers, retention, and repeat-purchase KPIs to measure recovery.
+
+---
+
+### 🎯 Key Business Takeaway
+
+The analysis shows that the decline was **not evenly distributed across the business**. Significant losses were concentrated within specific **products, markets, locations, and customer groups**.
+
+The dashboard therefore provides a foundation for moving from:
+
+> **Descriptive Analytics → Diagnostic Analysis → Recovery Opportunities**
+
+Rather than simply reporting that sales declined, the analysis helps identify **where the largest losses occurred and which areas should be investigated first for potential recovery**.
 
 ---
 
